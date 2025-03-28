@@ -1,7 +1,7 @@
 \begin{thebibliography}{10}
 
-\bibitem{butchart_global_2010}
-S.~H.~M. Butchart, M.~Walpole, B.~Collen, A.~{van Strien}, J.~P.~W. Scharlemann, R.~E.~A. Almond, J.~E.~M. Baillie, B.~Bomhard, C.~Brown, J.~Bruno, K.~E. Carpenter, G.~M. Carr, J.~Chanson, A.~M. Chenery, J.~Csirke, N.~C. Davidson, F.~Dentener, M.~Foster, A.~Galli, J.~N. Galloway, P.~Genovesi, R.~D. Gregory, M.~Hockings, V.~Kapos, J.-F. Lamarque, F.~Leverington, J.~Loh, M.~A. McGeoch, L.~McRae, A.~Minasyan, M.~H. Morcillo, T.~E.~E. Oldfield, D.~Pauly, S.~Quader, C.~Revenga, J.~R. Sauer, B.~Skolnik, D.~Spear, D.~{Stanwell-Smith}, S.~N. Stuart, A.~Symes, M.~Tierney, T.~D. Tyrrell, J.-C. Vi{\'e}, and R.~Watson, ``Global {{Biodiversity}}: {{Indicators}} of {{Recent Declines}},'' {\em Science}, vol.~328, pp.~1164--1168, May 2010.
+\bibitem{gosselin_relationships_2018}
+F.~Gosselin and J.-M. Callois, ``Relationships between human activity and biodiversity in {{Europe}} at the national scale: {{Spatial}} density of human activity as a core driver of biodiversity erosion,'' {\em Ecological Indicators}, vol.~90, pp.~356--365, July 2018.
 
 \bibitem{schmeller_building_2017}
 D.~S. Schmeller, M.~B{\"o}hm, C.~Arvanitidis, S.~{Barber-Meyer}, N.~Brummitt, M.~Chandler, E.~Chatzinikolaou, M.~J. Costello, H.~Ding, J.~{Garc{\'i}a-Moreno}, M.~Gill, P.~Haase, M.~Jones, R.~Juillard, W.~E. Magnusson, C.~S. Martin, M.~McGeoch, J.-B. Mihoub, N.~Pettorelli, V.~Proen{\c c}a, C.~Peng, E.~Regan, U.~Schmiedel, J.~P. Simaika, L.~Weatherdon, C.~Waterman, H.~Xu, and J.~Belnap, ``Building capacity in biodiversity monitoring at the global scale,'' {\em Biodiversity and Conservation}, vol.~26, pp.~2765--2790, Nov. 2017.
@@ -42,6 +42,9 @@ J.~Hamer, E.~Triantafillou, B.~{van Merri{\"e}nboer}, S.~Kahl, H.~Klinck, T.~Den
 \bibitem{xeno-canto_xeno-canto_2025}
 {xeno-canto}, ``Xeno-canto :: {{Sharing}} wildlife sounds from around the world.'' https://xeno-canto.org/, 2025.
 
+\bibitem{perez-granados_birdnet_2023}
+C.~{P{\'e}rez-Granados}, ``{{BirdNET}}: Applications, performance, pitfalls and future opportunities,'' {\em Ibis}, vol.~165, no.~3, pp.~1068--1075, 2023.
+
 \bibitem{vega-hidalgo_collection_2023}
 {\'A}.~{Vega-Hidalgo}, S.~Kahl, L.~B. Symes, V.~{Ruiz-Guti{\'e}rrez}, I.~{Molina-Mora}, F.~Cediel, L.~Sandoval, and H.~Klinck, ``A collection of fully-annotated soundscape recordings from neotropical coffee farms in {{Colombia}} and {{Costa Rica}},'' Jan. 2023.
 
@@ -63,10 +66,10 @@ B.~Williams, B.~van Merri{\"e}nboer, V.~Dumoulin, J.~Hamer, E.~Triantafillou, A.
 \bibitem{romano_standardized_2014}
 S.~Romano, J.~Bailey, V.~Nguyen, and K.~Verspoor, ``Standardized {{Mutual Information}} for {{Clustering Comparisons}}: {{One Step Further}} in {{Adjustment}} for {{Chance}},'' in {\em Proceedings of the 31st {{International Conference}} on {{Machine Learning}}}, pp.~1143--1151, PMLR, June 2014.
 
-\bibitem{mcinnes_umap_2020}
-L.~McInnes, J.~Healy, and J.~Melville, ``{{UMAP}}: {{Uniform Manifold Approximation}} and {{Projection}} for {{Dimension Reduction}},'' Sept. 2020.
-
 \bibitem{brodersen_balanced_2010}
 K.~H. Brodersen, C.~S. Ong, K.~E. Stephan, and J.~M. Buhmann, ``The {{Balanced Accuracy}} and {{Its Posterior Distribution}},'' in {\em 2010 20th {{International Conference}} on {{Pattern Recognition}}}, pp.~3121--3124, Aug. 2010.
+
+\bibitem{mcinnes_umap_2020}
+L.~McInnes, J.~Healy, and J.~Melville, ``{{UMAP}}: {{Uniform Manifold Approximation}} and {{Projection}} for {{Dimension Reduction}},'' Sept. 2020.
 
 \end{thebibliography}

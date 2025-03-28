@@ -1,0 +1,73 @@
+\section{Methods}
+\label{sec:methods}
+
+To incorporate a variety of training setups, covering popular models as well as models targeted to various species groups, we compare a total of 15 pre-trained bioacoustic different feature extractors.
+Table \ref{tab:bacpipe_models} shows the different feature extractors along with their model specific training setup. 
+As can be seen both self-supervised and supervised learning feature extractors are represented. 
+Furthermore, large variations in input length, embedding dimension and training data provide a landscape of feature extractors, allowing us to analyze performance of differently structured embedding spaces.
+
+\subsection{Dataset}
+\label{ssub:dataset}
+
+The evaluation dataset that was used for this study is a collection of soundscape recordings from neotropical coffee farms in Colombia and Costa Rica \cite{vega-hidalgo_collection_2023}.
+The recordings in this dataset feature challenging soundscape recordings with overlapping vocalizers and noisy environments.
+The annotations are made for bird species.
+The dataset has been reduced from its original size to only include sound events corresponding to classes with more than 150 annotations.
+This results in 11 vocalizing bird species ranging in annotation count from 153 to over 4000 (see legend in Fig. \ref{fig:embeds}).
+We intentionally selected soundscape recordings with gradual changes of background noise and overlapping species vocalizations to amplify the differences between the feature extractors' capabilities to structure the data.
+
+
+\input{Sections/table_models}
+
+
+\subsection{Data pipeline}
+\label{ssub:data_pipe}
+
+For each of the feature extractors, the respective model code base was cloned, and the model was stripped of its classifier.
+For both animal2vec feature extractors, outputs from the attention heads and input lengths are averaged, resulting in one embedding per input segment (as is the case with all other feature extractors).
+Data is imported from the sound files, resampled to the model specific sample rate and padded to fit the model specific input length.
+All the necessary code to reproduce the computations can be found in the repository \textbf{bacpipe}\footnote{\url{github.com/bioacoustic-ai/bacpipe}} (\textbf{b}io\textbf{a}coustic \textbf{c}ollection \textbf{pipe}line).
+
+\subsection{Evaluating dimensionality reduction}
+\label{ssub:eval_dim_reduc}
+
+Our primary focus is the comparison of the two paradigms: supervised learning and self-supervised learning.
+Furthermore, we are looking into how the data chosen for training affects the clustering capabilities of different feature extractors.
+
+
+% Given the high dimensional nature of embedding spaces, any quantitative evaluation may be subject to the curse of dimensionality \cite{bellman_dynamic_1957}.
+% This refers to the issues that arise when dealing with comparatively small number of datapoints in very high dimensional space.
+% In our setup this is relevant as the dimensions vary greatly and any resulting distance based calculations will be affected differently if they are calculated spaces of varying dimensions. 
+% Therefore, we aim to evaluate in what way reducing the dimension of embedding spaces impacts performance for each of the feature extractors.
+% The underlying assumption is that by homogenizing the dimension of the very differently structured embedding spaces, we lay the groundwork for quantitatively comparing the different feature extractors.
+
+% % Therefore, we must first assess how reducing the dimension affects the performance of each feature extractor.
+% Initially, feature extractor performance will be analysed using clustering performance and subsequently the performance of the reduced embedding spaces will be compared in the same way and related back to the initial performance values.
+% We will compare two versions of linear dimensionality reduction algorithms, principal component analysis (PCA) \cite{wold_principal_1987} and sparse principal component analysis (sPCA) \cite{zou_sparse_2006} as well as one non-linear dimensionality reduction algorithm, uniform manifold approximation projection (UMAP) \cite{mcinnes_umap_2020}.
+% Clustering performance will be analysed using Silhouette Score (SS) \cite{rousseeuw_silhouettes_1987}, Adjusted Rand Index (AIR) \cite{steinley_variance_2016} and Adjusted Mutual Information (AMI) \cite{romano_standardized_2014}.
+
+% Reducing dimensions using linear transformations has the advantage of preserving relative distances between all data points.
+% This means that quantitative analyses involving distance based calculations can be performed in the lower dimensional space.
+% Non-linear dimensionality reduction like UMAP however, creates a learned transformation based on a graph structure of the data and therefore disregards distances between data points \cite{mcinnes_umap_2020}.
+% While it is claimed that UMAP preserves relative distances for within cluster points, transformed relative distances between clusters are not representative of distances in the original high dimensional space.
+
+% To evaluate the changing embedding spaces as a function of the dimensionality reduction method, clustering performance will be evaluated. Adjusted Rand Index (AIR) \cite{steinley_variance_2016} and  
+The clustering is computed using KMeans with the same number of clusters as classes in the ground truth. 
+Clustering performance will be evaluated using Adjusted Mutual Information (AMI) \cite{romano_standardized_2014} to compare the KMeans clustering with the ground truth.
+Adjusted Rand Index is not included in this study, as it focuses on how well data points are grouped in a clustering, whereas we are primarily interested how well the KMeans clustering agrees with the ground truth labels.
+% Non-linear dimensionality reduction algorithms like UMAP create a learned transformation based on a graph structure of the data and therefore disregards distances between data points \cite{mcinnes_umap_2020}.
+Silhouette Score is also not included in this comparison as the challenging dataset yielded very low performance and variance, making a meaningful comparison impossible.
+% AMI and ARI require a clustering to be computed, to then quantify the agreement between that clustering and the ground truth and are therefore applicable to non-linear dimensionality reductions.
+% AMI measures how well clusters share information while ARI quantifies how well points are grouped.
+
+Clustering performance is evaluated in both the original embedding spaces and an embedding space reduced to 300 dimensions.
+This way the embedding dimension is standardized and performance can be compared while controlling for this factor.
+It also allows us to compare the performance of each model in their high dimensional original embedding space, as well as in a reduced dimension.
+To preserve relative distances between data points, Principal Component Analysis (PCA), a linear dimensionality reduction is selected.
+To visualize the embeddings in two dimensions, a non-linear dimensionality reduction algorithm, uniform manifold approximation projection (UMAP) \cite{mcinnes_umap_2020} is selected.
+
+Performance is also evaluated by training a linear classifier on each of the embedding spaces.
+Data is split into train, validation and test set in the ratio 0.65:0.15:0.2.
+The classifier is trained on the 11 classes for 10 epochs with a batch size of 64 and a learning rate of 0.001. 
+Performance is evaluated using a balanced macro accuracy score \cite{brodersen_balanced_2010} to handle the imbalance in class size.
+

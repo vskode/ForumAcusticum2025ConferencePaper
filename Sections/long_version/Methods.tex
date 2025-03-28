@@ -1,0 +1,66 @@
+\section{Methods}
+\label{sec:methods}
+
+To incorporate a variety of training setups, we compare a total of 15 different feature extractors.
+Table \ref{tab:bacpipe_models} shows the different feature extractors along with their model specific input length, training setup, architecture, output dimension, training modality and reference. 
+As can be seen both self-supervised and supervised learning feature extractors are represented. 
+Furthermore, large variations in input length, embedding dimension and training data provide a landscape of feature extractors, allowing us to see very differently structured embedding spaces.
+% Especially when focussing on the dimension column of Table \ref{tab:bacpipe_models}, we can see that embedding spaces vary in their dimensionality from 384 (ProtoCLR) to 2048 (HumpbackNET).
+
+\subsection{Dataset}
+\label{ssub:dataset}
+
+% The dataset that is used for this study is the Evaluation set from the DCASE 2022 Few-shot Bioacoustic Event Detection Task dataset \cite{nolasco_dcase_2022}.
+% This dataset features sound events from birds and mammals subdivided into 6 different classes. 
+% The classes are "Chiffchaff \& Cuckoo", "Coati", "Dawn Chorus (Cuckoo, Wren \& Robin)", "Chick calls", "Manx Shearwater" and "Dolphin Quacks".
+% Specifics on the recording settings and the annotation protocols can be read in \cite{nolasco_learning_2023}.
+% While some models have been trained on bird and mammal vocalizations, by using the evaluation dataset from the task we ensure that none of the models were trained on this specific data.
+% The dataset features a total of 92 files with 
+
+The dataset that was used for this study is a collection of soundscape recordings from neotropical coffee farms in Colombia and Costa Rica \cite{vega-hidalgo_collection_2023}.
+The dataset has been reduced from its original size to only include annotations of the 11 most frequently vocalizing species (see Table \ref{tab:dataset}).
+The recordings in this dataset feature challenging soundscape recordings with overlapping vocalizers and noisy environments.
+While dataset with sound events from very different deployments allow the models to generate more meaningful clusters and separations of the data, soundscape recordings with gradual changes of background noise and overlapping species vocalizations emphasize the abilities of the different feature extractors to structure the data.
+
+
+
+\input{Sections/table_dataset.tex}
+\input{Sections/table_models}
+
+
+\subsection{Data pipeline}
+\label{ssub:data_pipe}
+
+For each of the feature extractors, the respective model code base was cloned, and the model was stripped of their classifier.
+For animal2vec, outputs from the 12 attention heads and 10s input lengths are averaged, resulting in one embedding per input segment (as is the case with all other feature extractors).
+Data is imported from the sound files, resampled to the model specific sample rate and padded to fit the model specific input length.
+All the necessary code to reproduce the computations can be found in the repository \textbf{bacpipe}\footnote{\url{github.com/bioacoustic-ai/bacpipe}} (\textbf{b}io\textbf{a}coustic \textbf{c}ollection \textbf{pipe}line).
+
+\subsection{Evaluating dimensionality reduction}
+\label{ssub:eval_dim_reduc}
+
+
+Given the high dimensional nature of embedding spaces, any quantitative evaluation may be subject to the curse of dimensionality \cite{bellman_dynamic_1957}.
+This refers to the issues that arise when dealing with comparatively small number of datapoints in very high dimensional space.
+In our setup this is relevant as the dimensions vary greatly and any resulting distance based calculations will be affected differently if they are calculated spaces of varying dimensions. 
+Therefore, we aim to evaluate in what way reducing the dimension of embedding spaces impacts performance for each of the feature extractors.
+The underlying assumption is that by homogenizing the dimension of the very differently structured embedding spaces, we lay the groundwork for quantitatively comparing the different feature extractors.
+
+% Therefore, we must first assess how reducing the dimension affects the performance of each feature extractor.
+Initially, feature extractor performance will be analysed using clustering performance and subsequently the performance of the reduced embedding spaces will be compared in the same way and related back to the initial performance values.
+We will compare two versions of linear dimensionality reduction algorithms, principal component analysis (PCA) \cite{wold_principal_1987} and sparse principal component analysis (sPCA) \cite{zou_sparse_2006} as well as one non-linear dimensionality reduction algorithm, uniform manifold approximation projection (UMAP) \cite{mcinnes_umap_2020}.
+Clustering performance will be analysed using Silhouette Score (SS) \cite{rousseeuw_silhouettes_1987}, Adjusted Rand Index (AIR) \cite{steinley_variance_2016} and Adjusted Mutual Information (AMI) \cite{romano_standardized_2014}.
+
+Reducing dimensions using linear transformations has the advantage of preserving relative distances between all data points.
+This means that quantitative analyses involving distance based calculations can be performed in the lower dimensional space.
+Non-linear dimensionality reduction like UMAP however, creates a learned transformation based on a graph structure of the data and therefore disregards distances between data points \cite{mcinnes_umap_2020}.
+While it is claimed that UMAP preserves relative distances for within cluster points, transformed relative distances between clusters are not representative of distances in the original high dimensional space.
+
+To evaluate the changing embedding spaces as a function of the dimensionality reduction method, clustering performance will be evaluated. 
+SS is a method of validating the consistency within a clustering and can therefore be calculated for data points and their ground truth.
+AMI and ARI require a clustering to be computed, to then quantify the agreement between that clustering and the ground truth.
+AMI measures how well clusters share information while ARI quantifies how well points are grouped.
+The clustering is computed using KMeans with the same number of clusters as classes in the ground truth. 
+
+
+

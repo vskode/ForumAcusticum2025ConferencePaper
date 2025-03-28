@@ -1,0 +1,31 @@
+\section{Discussion}
+\label{sec:discussion}
+
+Although the self-supervised feature extractors represented in this study are trained on very large datasets, their combined performance is inferior to most of the supervised learning feature extractors including those trained on non-bird categories.
+Perch and BirdNET \cite{kahl_birdnet_2021}, both of which are trained on thousands of classes of bird vocalizations vastly outperform the other feature extractors. 
+Similarly, SurfPerch \cite{williams_leveraging_2024} and AvesEcho\_PaSST \cite{ghani_generalization_2024}, both of which have largely benefited from Perch or BirdNET pretraining, perform well by both clustering and linear classification.
+More generally, the embedding spaces of feature extractors trained on very large annotated bird song datasets seem to yield good separation between clusters.
+Interestingly, Insetct66 and Insect459 both of which were trained on solely insect sounds and far fewer classes than the bird-trained biolingual, vastly outperform it in linear classification.
+As stated in the introduction, self-supervised learning models lack supervision and might therefore learn classes not meaningful to differentiate between species vocalizations.
+When comparing Figures \ref{fig:embeds} and \ref{fig:subl_vs_ssl} we observe poor clustering both in terms of AMI performance and by qualitative visual analysis of the embedding separation, which could be resulting from non-meaningful classes.
+However, for the three AVES feature extractors, the linear classifier is nontheless able to learn a meaningful differentiation between the classes.
+This could be attributed to the fact, that while they are self-supervised, the training data consisted of curated and non-sparse sound events, thereby increasing the likelihood that meaningful classes are learned.
+
+For the self-supervised learning feature extractors, fine-tuning seems to only marginally improve performance.
+The three feature extractors based on the AVES models all share the same general audio pretraining and architecture but differ largely in fine-tuning. 
+The similarity in performance indicates that the dominant influence on the structuring of embeddings is defined by either the pretraining or the architecture.
+Animal2vec\_XC and Animal2vec\_MK, the latter of which is fine-tuned, largely share the same architecture but were trained on very different datasets.
+Yet, both models reach similarly bad performance, this is especially surprising for the fine-tuned Animal2vec\_MK.
+For the supervised learning feature extractor SurfPerch, which was developed for marine data in coral reefs, bird training data from Perch was mixed with coral reef sounds during pretraining.
+While the target domain is very different from the bird sound dataset used in this evaluation study, SurfPerch still reaches very high performance.
+Again, this indicates that including data of the target domain is more effective during pretraining than fine-tuning.
+
+While the dimensions of the feature extractors vary greatly, performance does not correlate with dimension.
+Nonetheless, in Fig. \ref{fig:orig_vs_ump} we demonstrated that using a standardized embedding space only marginally impacts performance and does not change the hierarchy of performance among most of the models.
+The performance differences that can be observed are predominantly in linear classification, indicating that the graph structure, which KMeans builds for the clustering, does not change much through a linear dimensionality reduction.
+
+This analysis underlines the high quality of embeddings created by large supervised learning feature extractors like BirdNET and Perch.
+While their training domain aligned with the domain of the evaluation dataset, so did that of biolingual, Animal2vec\_XC and BirdAVES\_ESpecies, none of which reached performance metrics similar to BirdNET and Perch.
+Nonetheless, reproducing this comparison with an evaluation set different from the training domains of these models would be very interesting.
+This study is meant to present a workflow for a more in-depth analysis of embedding spaces, which can be reproduced with the provided repository bacpipe\footnote{\url{github.com/bioacoustic-ai/bacpipe}}.
+By establishing a default analyses of feature extractors alongside the common classification benchmarks, bioacoustic research can accelerate towards a better understanding of what training characteristics are beneficial in this domain.

@@ -1,0 +1,72 @@
+\begin{thebibliography}{10}
+
+\bibitem{butchart_global_2010}
+S.~H.~M. Butchart, M.~Walpole, B.~Collen, A.~{van Strien}, J.~P.~W. Scharlemann, R.~E.~A. Almond, J.~E.~M. Baillie, B.~Bomhard, C.~Brown, J.~Bruno, K.~E. Carpenter, G.~M. Carr, J.~Chanson, A.~M. Chenery, J.~Csirke, N.~C. Davidson, F.~Dentener, M.~Foster, A.~Galli, J.~N. Galloway, P.~Genovesi, R.~D. Gregory, M.~Hockings, V.~Kapos, J.-F. Lamarque, F.~Leverington, J.~Loh, M.~A. McGeoch, L.~McRae, A.~Minasyan, M.~H. Morcillo, T.~E.~E. Oldfield, D.~Pauly, S.~Quader, C.~Revenga, J.~R. Sauer, B.~Skolnik, D.~Spear, D.~{Stanwell-Smith}, S.~N. Stuart, A.~Symes, M.~Tierney, T.~D. Tyrrell, J.-C. Vi{\'e}, and R.~Watson, ``Global {{Biodiversity}}: {{Indicators}} of {{Recent Declines}},'' {\em Science}, vol.~328, pp.~1164--1168, May 2010.
+
+\bibitem{schmeller_building_2017}
+D.~S. Schmeller, M.~B{\"o}hm, C.~Arvanitidis, S.~{Barber-Meyer}, N.~Brummitt, M.~Chandler, E.~Chatzinikolaou, M.~J. Costello, H.~Ding, J.~{Garc{\'i}a-Moreno}, M.~Gill, P.~Haase, M.~Jones, R.~Juillard, W.~E. Magnusson, C.~S. Martin, M.~McGeoch, J.-B. Mihoub, N.~Pettorelli, V.~Proen{\c c}a, C.~Peng, E.~Regan, U.~Schmiedel, J.~P. Simaika, L.~Weatherdon, C.~Waterman, H.~Xu, and J.~Belnap, ``Building capacity in biodiversity monitoring at the global scale,'' {\em Biodiversity and Conservation}, vol.~26, pp.~2765--2790, Nov. 2017.
+
+\bibitem{sugai_terrestrial_2019}
+L.~S.~M. Sugai, T.~S.~F. Silva, J.~W. Ribeiro, Jr, and D.~Llusia, ``Terrestrial {{Passive Acoustic Monitoring}}: {{Review}} and {{Perspectives}},'' {\em BioScience}, vol.~69, pp.~15--25, Jan. 2019.
+
+\bibitem{stowell_computational_2022}
+D.~Stowell, ``Computational bioacoustics with deep learning: A review and roadmap,'' {\em PeerJ}, vol.~10, p.~e13152, Mar. 2022.
+
+\bibitem{tuia_perspectives_2022}
+D.~Tuia, B.~Kellenberger, S.~Beery, B.~R. Costelloe, S.~Zuffi, B.~Risse, A.~Mathis, M.~W. Mathis, F.~{van Langevelde}, T.~Burghardt, R.~Kays, H.~Klinck, M.~Wikelski, I.~D. Couzin, G.~{van Horn}, M.~C. Crofoot, C.~V. Stewart, and T.~{Berger-Wolf}, ``Perspectives in machine learning for wildlife conservation,'' {\em Nature Communications}, vol.~13, p.~792, Feb. 2022.
+
+\bibitem{cowans_improving_2024}
+A.~Cowans, X.~Lambin, D.~Hare, and C.~Sutherland, ``Improving the integration of artificial intelligence into existing ecological inference workflows,'' {\em Methods in Ecology and Evolution}, vol.~n/a, Dec. 2024.
+
+\bibitem{allen-ankins_use_2025}
+S.~{Allen-Ankins}, S.~Hoefer, J.~Bartholomew, S.~Brodie, and L.~Schwarzkopf, ``The use of {{BirdNET}} embeddings as a fast solution to find novel sound classes in audio recordings,'' {\em Frontiers in Ecology and Evolution}, vol.~12, Jan. 2025.
+
+\bibitem{hagiwara_aves_2022}
+M.~Hagiwara, ``{{AVES}}: {{Animal Vocalization Encoder}} based on {{Self-Supervision}},'' Oct. 2022.
+
+\bibitem{baevski_efficient_2023}
+A.~Baevski, A.~Babu, W.-N. Hsu, and M.~Auli, ``Efficient {{Self-supervised Learning}} with {{Contextualized Target Representations}} for {{Vision}}, {{Speech}} and {{Language}},'' in {\em Proceedings of the 40th {{International Conference}} on {{Machine Learning}}}, pp.~1416--1429, PMLR, July 2023.
+
+\bibitem{huang_masked_2022}
+P.-Y. Huang, H.~Xu, J.~Li, A.~Baevski, M.~Auli, W.~Galuba, F.~Metze, and C.~Feichtenhofer, ``Masked {{Autoencoders}} that {{Listen}},'' {\em Advances in Neural Information Processing Systems}, vol.~35, pp.~28708--28720, Dec. 2022.
+
+\bibitem{kahl_birdnet_2021}
+S.~Kahl, C.~M. Wood, M.~Eibl, and H.~Klinck, ``{{BirdNET}}: {{A}} deep learning solution for avian diversity monitoring,'' {\em Ecological Informatics}, vol.~61, p.~101236, Mar. 2021.
+
+\bibitem{schafer-zimmermann_animal2vec_2024}
+J.~C. {Sch{\"a}fer-Zimmermann}, V.~Demartsev, B.~Averly, K.~{Dhanjal-Adams}, M.~Duteil, G.~Gall, M.~Fai{\ss}, L.~{Johnson-Ulrich}, D.~Stowell, M.~B. Manser, M.~A. Roch, and A.~{Strandburg-Peshkin}, ``Animal2vec and {{MeerKAT}}: {{A}} self-supervised transformer for rare-event raw audio input and a large-scale reference dataset for bioacoustics,'' July 2024.
+
+\bibitem{hamer_birb_2023}
+J.~Hamer, E.~Triantafillou, B.~{van Merri{\"e}nboer}, S.~Kahl, H.~Klinck, T.~Denton, and V.~Dumoulin, ``{{BIRB}}: {{A Generalization Benchmark}} for {{Information Retrieval}} in {{Bioacoustics}},'' Dec. 2023.
+
+\bibitem{xeno-canto_xeno-canto_2025}
+{xeno-canto}, ``Xeno-canto :: {{Sharing}} wildlife sounds from around the world.'' https://xeno-canto.org/, 2025.
+
+\bibitem{vega-hidalgo_collection_2023}
+{\'A}.~{Vega-Hidalgo}, S.~Kahl, L.~B. Symes, V.~{Ruiz-Guti{\'e}rrez}, I.~{Molina-Mora}, F.~Cediel, L.~Sandoval, and H.~Klinck, ``A collection of fully-annotated soundscape recordings from neotropical coffee farms in {{Colombia}} and {{Costa Rica}},'' Jan. 2023.
+
+\bibitem{canas_dataset_2023}
+J.~S. Ca{\~n}as, M.~P. {Toro-G{\'o}mez}, L.~S.~M. Sugai, H.~D. Ben{\'i}tez~Restrepo, J.~Rudas, B.~Posso~Bautista, L.~F. Toledo, S.~Dena, A.~H.~R. Domingos, F.~L. {de Souza}, S.~{Neckel-Oliveira}, A.~{da Rosa}, V.~{Carvalho-Rocha}, J.~V. Bernardy, J.~L. M.~M. Sugai, C.~E. {dos Santos}, R.~P. Bastos, D.~Llusia, and J.~S. Ulloa, ``A dataset for benchmarking {{Neotropical}} anuran calls identification in passive acoustic monitoring,'' {\em Scientific Data}, vol.~10, p.~771, Nov. 2023.
+
+\bibitem{ghani_generalization_2024}
+B.~Ghani, V.~J. Kalkman, B.~Planqu{\'e}, W.-P. Vellinga, L.~Gill, and D.~Stowell, ``Generalization in birdsong classification: Impact of transfer learning methods and dataset characteristics,'' Sept. 2024.
+
+\bibitem{robinson_transferable_2023}
+D.~Robinson, A.~Robinson, and L.~Akrapongpisak, ``Transferable {{Models}} for {{Bioacoustics}} with {{Human Language Supervision}},'' Aug. 2023.
+
+\bibitem{moummad_domain-invariant_2024}
+I.~Moummad, R.~Serizel, E.~Benetos, and N.~Farrugia, ``Domain-{{Invariant Representation Learning}} of {{Bird Sounds}},'' Sept. 2024.
+
+\bibitem{williams_leveraging_2024}
+B.~Williams, B.~van Merri{\"e}nboer, V.~Dumoulin, J.~Hamer, E.~Triantafillou, A.~B. Fleishman, M.~McKown, J.~E. Munger, A.~N. Rice, A.~Lillis, C.~E. White, C.~A.~D. Hobbs, T.~B. Razak, K.~E. Jones, and T.~Denton, ``Leveraging tropical reef, bird and unrelated sounds for superior transfer learning in marine bioacoustics,'' May 2024.
+
+\bibitem{romano_standardized_2014}
+S.~Romano, J.~Bailey, V.~Nguyen, and K.~Verspoor, ``Standardized {{Mutual Information}} for {{Clustering Comparisons}}: {{One Step Further}} in {{Adjustment}} for {{Chance}},'' in {\em Proceedings of the 31st {{International Conference}} on {{Machine Learning}}}, pp.~1143--1151, PMLR, June 2014.
+
+\bibitem{mcinnes_umap_2020}
+L.~McInnes, J.~Healy, and J.~Melville, ``{{UMAP}}: {{Uniform Manifold Approximation}} and {{Projection}} for {{Dimension Reduction}},'' Sept. 2020.
+
+\bibitem{brodersen_balanced_2010}
+K.~H. Brodersen, C.~S. Ong, K.~E. Stephan, and J.~M. Buhmann, ``The {{Balanced Accuracy}} and {{Its Posterior Distribution}},'' in {\em 2010 20th {{International Conference}} on {{Pattern Recognition}}}, pp.~3121--3124, Aug. 2010.
+
+\end{thebibliography}

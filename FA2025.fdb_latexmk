@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex FA2025"] 1743212512.17317 "FA2025.aux" "FA2025.bbl" "FA2025" 1743212654.22186 0
+["bibtex FA2025"] 1743213652.55965 "FA2025.aux" "FA2025.bbl" "FA2025" 1743213653.97714 0
   "./References.bib" 1742896158.45496 223049 047defe4aef0591401ded6be84561eac ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "FA2025.aux" 1743212654.14436 6695 60587829ab19725b97086544ced2801d "pdflatex"
+  "FA2025.aux" 1743213653.90586 6606 b998f9acc04d60ec871f7a00eb0decee "pdflatex"
   (generated)
   "FA2025.bbl"
   "FA2025.blg"
   (rewritten before read)
-["pdflatex"] 1743212652.82125 "/mnt/swap/Work/NaturalisPhD/5_Papers/2025/Forum Acusticum Conference Paper/ForumAcusticum2025ConferencePaper/FA2025.tex" "FA2025.pdf" "FA2025" 1743212654.22209 0
+["pdflatex"] 1743213652.57978 "/mnt/swap/Work/NaturalisPhD/5_Papers/2025/Forum Acusticum Conference Paper/ForumAcusticum2025ConferencePaper/FA2025.tex" "FA2025.pdf" "FA2025" 1743213653.97745 0
   "/etc/texmf/web2c/texmf.cnf" 1736935788.90431 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/mnt/swap/Work/NaturalisPhD/5_Papers/2025/Forum Acusticum Conference Paper/ForumAcusticum2025ConferencePaper/FA2025.tex" 1743212297.83234 4364 0c9b2ec19ee41e8306abfe738e35f313 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -173,14 +173,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1736935792.97634 165012 f177baa1c39a3ebd62c3096a43521a0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1736935804 6831114 2f6335cc25035f1b7e15e83bd5c233bb ""
-  "FA2025.aux" 1743212654.14436 6695 60587829ab19725b97086544ced2801d "pdflatex"
-  "FA2025.bbl" 1743212512.19192 6006 9cd84ff7047998fe00d7788879771561 "bibtex FA2025"
+  "FA2025.aux" 1743213653.90586 6606 b998f9acc04d60ec871f7a00eb0decee "pdflatex"
+  "FA2025.bbl" 1743213652.57711 6006 9cd84ff7047998fe00d7788879771561 "bibtex FA2025"
   "FA2025.tex" 1743212297.83234 4364 0c9b2ec19ee41e8306abfe738e35f313 ""
   "Sections/Conclustion.tex" 1743211959.74234 1462 be1acc0648ca5fc15f691f6a7cc55389 ""
   "Sections/Discussion.tex" 1743211555.75669 5361 bdc6232725278940481e8bd490e388c3 ""
   "Sections/Introduction.tex" 1743212652.65192 8638 8ca50df88fa4c2a7ce86fbceb647f5ae ""
-  "Sections/Methods.tex" 1743212415.89182 8474 53e550bbb810232f5fce75c666a28658 ""
-  "Sections/Results.tex" 1743210064.43984 7196 1212e7981a9201eea55fb6a4a40b76ea ""
+  "Sections/Methods.tex" 1743213650.95968 8480 6c1e6d671d3c9216f406ffdc6997599c ""
+  "Sections/Results.tex" 1743213449.7159 7200 4770ccbdffccc3b2b6fb95f5d6a0d0ac ""
   "Sections/imgs/normal_overview.png" 1741886415.97965 1348793 a95067c6b83e3e719cb85b8138ae50f1 ""
   "Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png" 1743199860.28004 400215 f84a35c8a1da27bcf79f207b27cac1fe ""
   "Sections/table_models.tex" 1743204849.23139 2814 5099dc5ffb91ab88d359e5fc8f298774 ""

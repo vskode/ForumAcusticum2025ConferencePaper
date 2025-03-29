@@ -57,9 +57,9 @@ Furthermore, we are looking into how the data chosen for training affects the cl
 % To evaluate the changing embedding spaces as a function of the dimensionality reduction method, clustering performance will be evaluated. Adjusted Rand Index (AIR) \cite{steinley_variance_2016} and  
 The clustering is computed using KMeans with the same number of clusters as classes in the ground truth. 
 Clustering performance will be evaluated using Adjusted Mutual Information (AMI) \cite{romano_standardized_2014} to compare the KMeans clustering with the ground truth.
-Adjusted Rand Index is not included in this study, as it focuses on how well data points are grouped in a clustering, whereas we are primarily interested how well the KMeans clustering agrees with the ground truth labels.
+% Adjusted Rand Index is not included in this study, as it focuses on how well data points are grouped in a clustering, whereas we are primarily interested how well the KMeans clustering agrees with the ground truth labels.
 % Non-linear dimensionality reduction algorithms like UMAP create a learned transformation based on a graph structure of the data and therefore disregards distances between data points \cite{mcinnes_umap_2020}.
-Silhouette Score is also not included in this comparison as the challenging dataset yielded very low performance and variance, making a meaningful comparison impossible.
+% Silhouette Score is also not included in this comparison as the challenging dataset yielded very low performance and variance, making a meaningful comparison impossible.
 % AMI and ARI require a clustering to be computed, to then quantify the agreement between that clustering and the ground truth and are therefore applicable to non-linear dimensionality reductions.
 % AMI measures how well clusters share information while ARI quantifies how well points are grouped.
 
@@ -73,7 +73,7 @@ Performance is evaluated using a balanced macro accuracy score \cite{brodersen_b
 
 Evaluations are computed in both the original embedding spaces and an embedding space reduced to 300 dimensions.
 This way the embedding dimension is standardized and performance can be compared while controlling for this factor.
-It also allows us to compare the performance of each model in their high dimensional original embedding space, as well as in a reduced dimension.
+% It also allows us to compare the performance of each model in their high dimensional original embedding space, as well as in a reduced dimension.
 % For the linear classifier, to preserve relative distances between data points, Principal Component Analysis (PCA), a linear dimensionality reduction is selected.
 Uniform manifold approximation projection (UMAP) \cite{mcinnes_umap_2020} is selected for the dimensionality reduction to 300 dimensions.
 UMAP is also used to visualize the embeddings in two dimensions in Fig. \ref{fig:embeds}.

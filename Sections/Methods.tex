@@ -9,15 +9,11 @@ Furthermore, large variations in input length, embedding dimension and training 
 \subsection{Dataset}
 \label{ssub:dataset}
 
-The evaluation datasets that were used for this study are 
-\begin{enumerate}
-    \item a bird vocalization dataset (from hereon referred to as bird dataset) recorded in coffee farms in Colombia and Costa Rica \cite{vega-hidalgo_collection_2023} and
-    \item a frog vocalization dataset (from hereon referred to as frog dataset) recorded in Brazil \cite{canas_dataset_2023}.
-\end{enumerate}
+The evaluation datasets that were used for this study are: a bird vocalization dataset (bird dataset) recorded in coffee farms in Colombia and Costa Rica \cite{vega-hidalgo_collection_2023} and a frog vocalization dataset (frog dataset) recorded in Brazil \cite{canas_dataset_2023}.
 The recordings in these datasets feature challenging soundscape recordings with overlapping vocalizers and noisy environments.
 Both datasets have been reduced from their original size to only include sound events corresponding to classes with more than 150 annotations.
 Due to the high amount of polyphony, the frog dataset has furthermore been reduced to only contain sound events with non-overlapping annotations, i.e. turning it into a single-label dataset.
-It is worth mentioning, that by excluding overlapping annotations, only polyphony of anuran species is removed, overlapping sounds created by insects and birds in the recordings remains.
+It is worth mentioning, that by excluding overlapping annotations, only polyphony of frog species is removed, overlapping sounds created by insects and birds in the recordings remains.
 
 For the bird dataset this results in 11 classes, while for the frog dataset 18 classes are included in the final dataset.
 We intentionally selected soundscape recordings with gradual changes of background noise and overlapping species vocalizations to amplify the differences between the feature extractors' capabilities to structure the data.

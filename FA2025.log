@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.1.15)  29 MAR 2025 02:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.1.15)  29 MAR 2025 02:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -429,8 +429,8 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks40
 \inpenc@posthook=\toks41
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 36.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 36.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 37.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 37.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -440,20 +440,20 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 ) (./FA2025.aux)
 \openout1 = `FA2025.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count317
@@ -522,8 +522,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 36.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 39.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 37.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 40.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) (./Sections/Introduction.tex
@@ -532,7 +532,7 @@ Underfull \hbox (badness 1184) in paragraph at lines 4--9
  []
 
 
-Underfull \vbox (badness 5954) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 <header.png, id=4, 1044.90375pt x 216.81pt>
 File: header.png Graphic file (type png)
@@ -554,24 +554,20 @@ Package pdftex.def Info: footer_logo_sea.png  used on input line 24.
 
 
  <./header.png> <./footer_logo_eaa.jpg> <./footer_logo_sea.png>]) (./Sections/Methods.tex
-Underfull \hbox (badness 1728) in paragraph at lines 17--21
-\OT1/ptm/m/n/10 The record-ings in these datasets fea-ture chal-leng-ing
- []
-
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 21.
+Package pdftex.def Info: header.png  used on input line 17.
 (pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
 File: footer_logo_eaa.jpg Graphic file (type jpg)
 <use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 21.
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 17.
 (pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
 File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 21.
+Package pdftex.def Info: footer_logo_sea.png  used on input line 17.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
-[2] (./Sections/table_models.tex)
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 35.
+ [2] (./Sections/table_models.tex)
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 31.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )) (./Sections/Results.tex
@@ -661,70 +657,70 @@ Package pdftex.def Info: footer_logo_sea.png  used on input line 26.
  [6 <./Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png>]) (./Sections/Conclustion.tex) (./FA2025.bbl
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 8.
+Package pdftex.def Info: header.png  used on input line 5.
 (pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
 File: footer_logo_eaa.jpg Graphic file (type jpg)
 <use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 8.
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 5.
 (pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
 File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 8.
+Package pdftex.def Info: footer_logo_sea.png  used on input line 5.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
  [7]
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 []\OT1/ptm/m/n/10 S. Allen-Ankins, S. Hoe-fer, J. Bartholomew,
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 40--41
+Underfull \hbox (badness 2285) in paragraph at lines 34--35
 []\OT1/ptm/m/n/10 J. Hamer, E. Tri-antafil-lou, B. van Merri[]enboer,
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 46--47
+Underfull \hbox (badness 1331) in paragraph at lines 40--41
 []\OT1/ptm/m/n/10 C. P[]erez-Granados, ``Bird-NET: Ap-pli-ca-tions, per-
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 46--47
+Underfull \hbox (badness 1360) in paragraph at lines 40--41
 \OT1/ptm/m/n/10 for-mance, pit-falls and fu-ture op-por-tu-ni-ties,'' \OT1/ptm/m/it/10 Ibis\OT1/ptm/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 64--65
+Underfull \hbox (badness 1708) in paragraph at lines 58--59
 []\OT1/ptm/m/n/10 B. Williams, B. van Merri[]enboer, V. Du-moulin,
  []
 
-File: header.png Graphic file (type png)
-<use header.png>
-Package pdftex.def Info: header.png  used on input line 65.
-(pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
-File: footer_logo_eaa.jpg Graphic file (type jpg)
-<use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 65.
-(pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
-File: footer_logo_sea.png Graphic file (type png)
-<use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 65.
-(pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
-[8]
-Underfull \hbox (badness 1527) in paragraph at lines 67--68
+
+Underfull \hbox (badness 1527) in paragraph at lines 61--62
 []\OT1/ptm/m/n/10 S. Ro-mano, J. Bai-ley, V. Nguyen, and K. Ver-
  []
 
-)
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 85.
+Package pdftex.def Info: header.png  used on input line 62.
 (pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
 File: footer_logo_eaa.jpg Graphic file (type jpg)
 <use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 85.
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 62.
 (pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
 File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 85.
+Package pdftex.def Info: footer_logo_sea.png  used on input line 62.
+(pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
+[8])
+File: header.png Graphic file (type png)
+<use header.png>
+Package pdftex.def Info: header.png  used on input line 86.
+(pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
+File: footer_logo_eaa.jpg Graphic file (type jpg)
+<use footer_logo_eaa.jpg>
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 86.
+(pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
+File: footer_logo_sea.png Graphic file (type png)
+<use footer_logo_sea.png>
+Package pdftex.def Info: footer_logo_sea.png  used on input line 86.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
  [9
 
@@ -735,15 +731,15 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 18742 strings out of 476106
- 416411 string characters out of 5793933
- 1951975 words of memory out of 5000000
- 40400 multiletter control sequences out of 15000+600000
+ 18738 strings out of 476106
+ 416301 string characters out of 5793933
+ 1950975 words of memory out of 5000000
+ 40396 multiletter control sequences out of 15000+600000
  588516 words of font info for 91 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 117i,17n,121p,911b,1285s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,17n,121p,911b,1287s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on FA2025.pdf (9 pages, 1742169 bytes).
+Output written on FA2025.pdf (9 pages, 1741289 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream

@@ -6,7 +6,8 @@ To compare the models, we have isolated their feature extractors and used them t
 The aim of this study was to firstly present a large comparison of very different bioacoustic deep learning feature extractors and to evaluate how training paradigms and training domains affect performance.
 Performance was evaluated through clustering using an AMI score and through kNN classification using a macro accuracy score.
 
-We have shown that in spite of recent improvements in bioacoustic self-supervised learning, performance is still inferior to that of supervised learning models.
+We have shown that in spite of recent improvements, bioacoustic feature extractors still struggle with polyphonic PAM datasets, especially if they are outside of the training domain.
+At this point, self-supervised learning performance is still inferior to that of supervised learning models.
 This performance difference is visible in both kNN classification and even more in clustering.
 Furthermore, we have shown that alignment of training domain and target domain during pretraining impacts performance more, than during fine-tuning.
 This study presents a roadmap for a more in-depth performance evaluation of bioacoustic deep learning models, allowing for a better understanding of how training setup impacts downstream performance.

@@ -12,9 +12,6 @@ L.~S.~M. Sugai, T.~S.~F. Silva, J.~W. Ribeiro, Jr, and D.~Llusia, ``Terrestrial 
 \bibitem{stowell_computational_2022}
 D.~Stowell, ``Computational bioacoustics with deep learning: A review and roadmap,'' {\em PeerJ}, vol.~10, p.~e13152, Mar. 2022.
 
-\bibitem{tuia_perspectives_2022}
-D.~Tuia, B.~Kellenberger, S.~Beery, B.~R. Costelloe, S.~Zuffi, B.~Risse, A.~Mathis, M.~W. Mathis, F.~{van Langevelde}, T.~Burghardt, R.~Kays, H.~Klinck, M.~Wikelski, I.~D. Couzin, G.~{van Horn}, M.~C. Crofoot, C.~V. Stewart, and T.~{Berger-Wolf}, ``Perspectives in machine learning for wildlife conservation,'' {\em Nature Communications}, vol.~13, p.~792, Feb. 2022.
-
 \bibitem{cowans_improving_2024}
 A.~Cowans, X.~Lambin, D.~Hare, and C.~Sutherland, ``Improving the integration of artificial intelligence into existing ecological inference workflows,'' {\em Methods in Ecology and Evolution}, vol.~n/a, Dec. 2024.
 
@@ -23,9 +20,6 @@ S.~{Allen-Ankins}, S.~Hoefer, J.~Bartholomew, S.~Brodie, and L.~Schwarzkopf, ``T
 
 \bibitem{hagiwara_aves_2022}
 M.~Hagiwara, ``{{AVES}}: {{Animal Vocalization Encoder}} based on {{Self-Supervision}},'' Oct. 2022.
-
-\bibitem{baevski_efficient_2023}
-A.~Baevski, A.~Babu, W.-N. Hsu, and M.~Auli, ``Efficient {{Self-supervised Learning}} with {{Contextualized Target Representations}} for {{Vision}}, {{Speech}} and {{Language}},'' in {\em Proceedings of the 40th {{International Conference}} on {{Machine Learning}}}, pp.~1416--1429, PMLR, July 2023.
 
 \bibitem{huang_masked_2022}
 P.-Y. Huang, H.~Xu, J.~Li, A.~Baevski, M.~Auli, W.~Galuba, F.~Metze, and C.~Feichtenhofer, ``Masked {{Autoencoders}} that {{Listen}},'' {\em Advances in Neural Information Processing Systems}, vol.~35, pp.~28708--28720, Dec. 2022.

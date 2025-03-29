@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.1.15)  29 MAR 2025 00:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.1.15)  29 MAR 2025 02:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -570,14 +570,7 @@ File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
 Package pdftex.def Info: footer_logo_sea.png  used on input line 21.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
-[2] (./Sections/table_models.tex
-
-LaTeX Warning: Reference `fig:subl_vs_ssl' on page 3 undefined on input line 4.
-
-
-LaTeX Warning: Reference `fig:subl_vs_ssl' on page 3 undefined on input line 4.
-
-)
+[2] (./Sections/table_models.tex)
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 35.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -587,55 +580,51 @@ File: Sections/imgs/normal_overview.png Graphic file (type png)
 <use Sections/imgs/normal_overview.png>
 Package pdftex.def Info: Sections/imgs/normal_overview.png  used on input line 6.
 (pdftex.def)             Requested size: 463.78pt x 324.64848pt.
- (./Sections/table_res.tex)
+<Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png, id=26, 361.35pt x 289.08pt>
+File: Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png Graphic file (type png)
+<use Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png>
+Package pdftex.def Info: Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png  used on input line 26.
+(pdftex.def)             Requested size: 221.93158pt x 177.54715pt.
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 39.
+Package pdftex.def Info: header.png  used on input line 46.
 (pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
 File: footer_logo_eaa.jpg Graphic file (type jpg)
 <use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 39.
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 46.
 (pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
 File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 39.
+Package pdftex.def Info: footer_logo_sea.png  used on input line 46.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
  [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png, id=30, 361.35pt x 289.08pt>
-File: Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png Graphic file (type png)
-<use Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png>
-Package pdftex.def Info: Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png  used on input line 51.
-(pdftex.def)             Requested size: 221.93158pt x 177.54715pt.
 
-
-LaTeX Warning: Reference `fig:subl_vs_ssl' on page 4 undefined on input line 56.
-
-
-LaTeX Warning: Reference `fig:subl_vs_ssl' on page 4 undefined on input line 56.
-
-)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 69.
+Package pdftex.def Info: header.png  used on input line 65.
 (pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
 File: footer_logo_eaa.jpg Graphic file (type jpg)
 <use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 69.
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 65.
 (pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
 File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 69.
+Package pdftex.def Info: footer_logo_sea.png  used on input line 65.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
- [4] (./Sections/Discussion.tex
+ [4] (./Sections/table_res.tex
+Overfull \hbox (6.03503pt too wide) in paragraph at lines 7--42
+ [][] 
+ []
 
-LaTeX Warning: Reference `fig:subl_vs_ssl' on page 5 undefined on input line 10.
+))
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1067) in paragraph at lines 4--13
+ (./Sections/Discussion.tex
+Underfull \hbox (badness 1067) in paragraph at lines 4--9
 \OT1/ptm/m/n/10 Although the self-supervised fea-ture ex-trac-tors rep-re-
  []
 
@@ -644,17 +633,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 13.
+Package pdftex.def Info: header.png  used on input line 9.
 (pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
 File: footer_logo_eaa.jpg Graphic file (type jpg)
 <use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 13.
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 9.
 (pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
 File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 13.
+Package pdftex.def Info: footer_logo_sea.png  used on input line 9.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
  [5 <./Sections/imgs/normal_overview.png>]
+Underfull \vbox (badness 4479) has occurred while \output is active []
+
 File: header.png Graphic file (type png)
 <use header.png>
 Package pdftex.def Info: header.png  used on input line 26.
@@ -670,15 +661,15 @@ Package pdftex.def Info: footer_logo_sea.png  used on input line 26.
  [6 <./Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png>]) (./Sections/Conclustion.tex) (./FA2025.bbl
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 20.
+Package pdftex.def Info: header.png  used on input line 8.
 (pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
 File: footer_logo_eaa.jpg Graphic file (type jpg)
 <use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 20.
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 8.
 (pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
 File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 20.
+Package pdftex.def Info: footer_logo_sea.png  used on input line 8.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
  [7]
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
@@ -705,7 +696,19 @@ Underfull \hbox (badness 1708) in paragraph at lines 64--65
 []\OT1/ptm/m/n/10 B. Williams, B. van Merri[]enboer, V. Du-moulin,
  []
 
-
+File: header.png Graphic file (type png)
+<use header.png>
+Package pdftex.def Info: header.png  used on input line 65.
+(pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
+File: footer_logo_eaa.jpg Graphic file (type jpg)
+<use footer_logo_eaa.jpg>
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 65.
+(pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
+File: footer_logo_sea.png Graphic file (type png)
+<use footer_logo_sea.png>
+Package pdftex.def Info: footer_logo_sea.png  used on input line 65.
+(pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
+[8]
 Underfull \hbox (badness 1527) in paragraph at lines 67--68
 []\OT1/ptm/m/n/10 S. Ro-mano, J. Bai-ley, V. Nguyen, and K. Ver-
  []
@@ -723,29 +726,27 @@ File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
 Package pdftex.def Info: footer_logo_sea.png  used on input line 85.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
- [8] (./FA2025.aux)
+ [9
+
+] (./FA2025.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 18739 strings out of 476106
- 416342 string characters out of 5793933
- 1955975 words of memory out of 5000000
- 40397 multiletter control sequences out of 15000+600000
+ 18742 strings out of 476106
+ 416411 string characters out of 5793933
+ 1951975 words of memory out of 5000000
+ 40400 multiletter control sequences out of 15000+600000
  588516 words of font info for 91 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 117i,17n,121p,852b,1285s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,17n,121p,911b,1285s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on FA2025.pdf (8 pages, 1740266 bytes).
+Output written on FA2025.pdf (9 pages, 1742169 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 88 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

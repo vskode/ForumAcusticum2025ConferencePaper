@@ -52,36 +52,36 @@
 \newlabel{sec:results}{{3}{3}{}{}{}}
 \pgfsyspdfmark {pgfid8}{19579138}{27690495}
 \pgfsyspdfmark {pgfid7}{4736286}{50644704}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces List of feature extractors compared in this study. Columns "abbrev." shows the an abbreviated name used in Figures \ref {fig:subl_vs_ssl} and \ref {fig:orig_vs_ump}. "training" shows the training setup chosen during training, i.e. ssl for self-supervised learning, sup l for supervised learning and ft for fine-tuning. The "architecture" column more specifically describes the model architecture used. "dimension" shows the output dimension of the feature extractor. "trained on" summarizes the species group that was used to train the model. "ref." provides the respective publication for a given model. }}{4}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces List of feature extractors compared in this study. Columns "abbrev." shows the an abbreviated name used in Fig. \ref {fig:orig_vs_ump}. "training" shows the training setup chosen during training, i.e. ssl for self-supervised learning, sup l for supervised learning and ft for fine-tuning. The "architecture" column more specifically describes the model architecture used. "dimension" shows the output dimension of the feature extractor. "trained on" summarizes the species group that was used to train the model. "ref." provides the respective publication.}}{4}{}\protected@file@percent }
 \newlabel{tab:bacpipe_models}{{1}{4}{}{}{}}
 \citation{kahl_birdnet_2021}
 \citation{williams_leveraging_2024}
 \citation{ghani_generalization_2024}
 \pgfsyspdfmark {pgfid10}{19579138}{27690495}
 \pgfsyspdfmark {pgfid9}{4736286}{50644704}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Two-dimensional embedding spaces of all feature extractors, sorted descending by their clustering performance of AMI values (indicated next to their name) from top left to bottom right. Given the different input lengths of the feature extractors, the number of embeddings vary significantly. Colors correspond to the class labels, which are 11 different tropical bird species.}}{5}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Two-dimensional embedding spaces of all feature extractors, sorted descending by their clustering performance of AMI values (indicated next to their name) from top left to bottom right. Colors correspond to the class labels, which are 11 different tropical bird species.}}{5}{}\protected@file@percent }
 \newlabel{fig:embeds}{{1}{5}{}{}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.} Discussion}{5}{}\protected@file@percent }
-\newlabel{sec:discussion}{{4}{5}{}{}{}}
 \pgfsyspdfmark {pgfid12}{19579138}{27690495}
 \pgfsyspdfmark {pgfid11}{4736286}{50644704}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces List of feature extractors compared in this study. }}{6}{}\protected@file@percent }
-\newlabel{tab:results}{{2}{6}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Comparison of feature extractor performance for bird and frog datasets. Axes, symbols and colors points correspond to the same as in Fig. \ref {fig:subl_vs_ssl}. Here, black points show the performance of each feature extractor on the bird dataset. Red and blue points show the performance on the frog dataset. The grey arrow shows the performance change from the bird to the frog dataset.}}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Comparison of feature extractor performance by learning paradigm, training data and application data. Abbreviated names correspond to abbrev. column in Tab.~\ref {tab:bacpipe_models}. The x-axis shows clustering results of AMI while the y-axis shows macro accuracy results of kNN classification. Colors correspond to supervised learning and self-supervised learning feature extractors, while symbols separate bird and non-bird training data. Black points show the performance of each feature extractor on the frog dataset. Red and blue points show the performance on the bird dataset. The gray arrow shows the performance change from the bird to the frog dataset.}}{6}{}\protected@file@percent }
 \newlabel{fig:orig_vs_ump}{{2}{6}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.} Discussion}{6}{}\protected@file@percent }
+\newlabel{sec:discussion}{{4}{6}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Classification and clustering performance of the original, and UMAP reduced embeddings to 300 dimensions. Values show the mean over all ssl, supl, bird and non-bird feature extractors, corresponding to the symbols and colors in Fig. \ref {fig:orig_vs_ump}. Best values within category are underlined and best values among all categories and dimensionalities are bold.}}{6}{}\protected@file@percent }
+\newlabel{tab:results}{{2}{6}{}{}{}}
 \bibdata{References}
 \bibcite{gosselin_relationships_2018}{1}
 \bibcite{schmeller_building_2017}{2}
-\bibcite{sugai_terrestrial_2019}{3}
-\bibcite{stowell_computational_2022}{4}
-\bibcite{tuia_perspectives_2022}{5}
-\bibcite{cowans_improving_2024}{6}
 \pgfsyspdfmark {pgfid14}{19579138}{27690495}
 \pgfsyspdfmark {pgfid13}{4736286}{50644704}
 \@writefile{toc}{\contentsline {section}{\numberline {5.} Conclusion}{7}{}\protected@file@percent }
 \newlabel{sec:conslusion}{{5}{7}{}{}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.} Acknowledgments}{7}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {7.} References}{7}{}\protected@file@percent }
+\bibcite{sugai_terrestrial_2019}{3}
+\bibcite{stowell_computational_2022}{4}
+\bibcite{tuia_perspectives_2022}{5}
+\bibcite{cowans_improving_2024}{6}
 \bibcite{allen-ankins_use_2025}{7}
 \bibcite{hagiwara_aves_2022}{8}
 \bibcite{baevski_efficient_2023}{9}
@@ -97,9 +97,11 @@
 \bibcite{robinson_transferable_2023}{19}
 \bibcite{moummad_domain-invariant_2024}{20}
 \bibcite{williams_leveraging_2024}{21}
+\pgfsyspdfmark {pgfid16}{19579138}{27690495}
+\pgfsyspdfmark {pgfid15}{4736286}{50644704}
 \bibcite{romano_standardized_2014}{22}
 \bibcite{brodersen_balanced_2010}{23}
 \bibcite{mcinnes_umap_2020}{24}
-\pgfsyspdfmark {pgfid16}{19579138}{27690495}
-\pgfsyspdfmark {pgfid15}{4736286}{50644704}
-\gdef \@abspage@last{8}
+\pgfsyspdfmark {pgfid18}{19579138}{27690495}
+\pgfsyspdfmark {pgfid17}{4736286}{50644704}
+\gdef \@abspage@last{9}

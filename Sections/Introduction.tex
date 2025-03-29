@@ -52,7 +52,7 @@ This study aims to showcase the potential for evaluating and especially comparin
 This evaluation is based on the structuring capabilities of their respective feature extractors analyzed through clustering and classification performance.
 Classification in this case refers to recognition of novel classes, as none of the models have been pretrained on the classes selected here.
 This way single classification layers are attached to each feature extractor, all of which are trained on the same evaluation sets (bird and frog vocalizations), i.e. same classes and same data, allowing us to compare their performance.
-Classification is done both in a linear and a k-nearest neighbor (kNN) approach.
+Classification is done using a k-nearest neighbor (kNN) approach.
 We perform our analysis in both the original embedding space and a reduced dimensional embedding space. 
 That way we ensure the dimension is standardized for the second evaluation, whilst we can investigate performance differences between the original embedding space and the reduced space.
 % This study will therefore examine how different dimensionality reduction strategies impact performance. 

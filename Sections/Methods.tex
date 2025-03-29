@@ -68,15 +68,16 @@ Silhouette Score is also not included in this comparison as the challenging data
 % AMI measures how well clusters share information while ARI quantifies how well points are grouped.
 
 Performance is also evaluated by training a single-layer classifier on each of the embedding spaces.
-Classification is performed using a linear and a kNN approach.
-The linear classifier is trained on the 11 and 18 classes for the bird and frog datasets respectively for 10 epochs with a batch size of 64 and a learning rate of 0.001. 
-For the knn classifier a nearest neighbor parameter of 15 is chosen.
+Classification is performed using a kNN approach with a nearest neighbor parameter of 15.
+% The linear classifier is trained on the 11 and 18 classes for the bird and frog datasets respectively for 10 epochs with a batch size of 64 and a learning rate of 0.001. 
+% For the kNN classifier a nearest neighbor parameter of 15 is chosen.
+The classifier is trained on the 11 and 18 classes for the bird and frog datasets respectively.
 Data is split into train, validation and test set in the ratio 0.65:0.15:0.2.
 Performance is evaluated using a balanced macro accuracy score \cite{brodersen_balanced_2010} to handle the imbalance in class sizes.
 
-Evaluations computed in both the original embedding spaces and an embedding space reduced to 300 dimensions.
+Evaluations are computed in both the original embedding spaces and an embedding space reduced to 300 dimensions.
 This way the embedding dimension is standardized and performance can be compared while controlling for this factor.
 It also allows us to compare the performance of each model in their high dimensional original embedding space, as well as in a reduced dimension.
-For the linear classifier, to preserve relative distances between data points, Principal Component Analysis (PCA), a linear dimensionality reduction is selected.
-For the kNN classifier uniform manifold approximation projection (UMAP) \cite{mcinnes_umap_2020} is selected.
+% For the linear classifier, to preserve relative distances between data points, Principal Component Analysis (PCA), a linear dimensionality reduction is selected.
+Uniform manifold approximation projection (UMAP) \cite{mcinnes_umap_2020} is selected for the dimensionality reduction to 300 dimensions.
 UMAP is also used to visualize the embeddings in two dimensions in Fig. \ref{fig:embeds}.

@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex FA2025"] 1743204098.03165 "FA2025.aux" "FA2025.bbl" "FA2025" 1743204099.49085 0
+["bibtex FA2025"] 1743211621.8529 "FA2025.aux" "FA2025.bbl" "FA2025" 1743211719.24455 0
   "./References.bib" 1742896158.45496 223049 047defe4aef0591401ded6be84561eac ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "FA2025.aux" 1743204099.41733 6291 530aa3bddccf2452c7b56c689dc69e66 "pdflatex"
+  "FA2025.aux" 1743211719.16629 6815 5b23deb3324495a0ec6f9ed1568c8bc1 "pdflatex"
   (generated)
   "FA2025.bbl"
   "FA2025.blg"
   (rewritten before read)
-["pdflatex"] 1743204098.05304 "/mnt/swap/Work/NaturalisPhD/5_Papers/2025/Forum Acusticum Conference Paper/ForumAcusticum2025ConferencePaper/FA2025.tex" "FA2025.pdf" "FA2025" 1743204099.49105 0
+["pdflatex"] 1743211717.8227 "/mnt/swap/Work/NaturalisPhD/5_Papers/2025/Forum Acusticum Conference Paper/ForumAcusticum2025ConferencePaper/FA2025.tex" "FA2025.pdf" "FA2025" 1743211719.24477 0
   "/etc/texmf/web2c/texmf.cnf" 1736935788.90431 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/mnt/swap/Work/NaturalisPhD/5_Papers/2025/Forum Acusticum Conference Paper/ForumAcusticum2025ConferencePaper/FA2025.tex" 1742896076.285 4248 12e4fe6e8e2ff01c8ba51ced7b0620cc ""
+  "/mnt/swap/Work/NaturalisPhD/5_Papers/2025/Forum Acusticum Conference Paper/ForumAcusticum2025ConferencePaper/FA2025.tex" 1743209370.31865 4245 87aa96a7f053e3b6bafe85b5c855e003 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -173,18 +173,18 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1736935792.97634 165012 f177baa1c39a3ebd62c3096a43521a0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1736935804 6831114 2f6335cc25035f1b7e15e83bd5c233bb ""
-  "FA2025.aux" 1743204099.41733 6291 530aa3bddccf2452c7b56c689dc69e66 "pdflatex"
-  "FA2025.bbl" 1743204098.04998 6742 1f9417210b5f78462e53cf761fd42761 "bibtex FA2025"
-  "FA2025.tex" 1742896076.285 4248 12e4fe6e8e2ff01c8ba51ced7b0620cc ""
-  "Sections/Conclustion.tex" 1741892561.27448 1371 d4bc4633e9c0ca8813cabb42f13219fc ""
-  "Sections/Discussion.tex" 1743181989.12905 4471 cbb409262bae6d4852a4f48d04c3edad ""
-  "Sections/Introduction.tex" 1743197398.05019 8699 23d63ec96a9d31de0f2427cdf44789f1 ""
-  "Sections/Methods.tex" 1743181853.18383 8423 ad886e85e010cd1abfd0f89f7fc3f0c4 ""
-  "Sections/Results.tex" 1743204096.44293 6337 88046314f4c6121221b413fc33c2689c ""
+  "FA2025.aux" 1743211719.16629 6815 5b23deb3324495a0ec6f9ed1568c8bc1 "pdflatex"
+  "FA2025.bbl" 1743211621.87052 6742 1f9417210b5f78462e53cf761fd42761 "bibtex FA2025"
+  "FA2025.tex" 1743209370.31865 4245 87aa96a7f053e3b6bafe85b5c855e003 ""
+  "Sections/Conclustion.tex" 1743211717.6553 1331 f71e24aa38c8d3871c0d9b0ef42f5579 ""
+  "Sections/Discussion.tex" 1743211555.75669 5361 bdc6232725278940481e8bd490e388c3 ""
+  "Sections/Introduction.tex" 1743209340.51769 8684 ecca7589d00c7a736da50bf322553e9c ""
+  "Sections/Methods.tex" 1743209283.76515 8584 e4a47f34621f441ff7d3f8a77593c725 ""
+  "Sections/Results.tex" 1743210064.43984 7196 1212e7981a9201eea55fb6a4a40b76ea ""
   "Sections/imgs/normal_overview.png" 1741886415.97965 1348793 a95067c6b83e3e719cb85b8138ae50f1 ""
   "Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png" 1743199860.28004 400215 f84a35c8a1da27bcf79f207b27cac1fe ""
-  "Sections/table_models.tex" 1741899864.97962 2862 a3a37242dc59241687e782676c6bd65d ""
-  "Sections/table_res.tex" 1743203976.8925 1851 807de9a1354b1e7547e907b9a9ade251 ""
+  "Sections/table_models.tex" 1743204849.23139 2814 5099dc5ffb91ab88d359e5fc8f298774 ""
+  "Sections/table_res.tex" 1743209491.81361 3453 d3b3bc175ba2910630db000ca4e5170f ""
   "fa2025.sty" 1739645208 8995 fc48f763c68a1555adf56f60be574c95 ""
   "footer_logo_eaa.jpg" 1732616272 313241 f6539e45405e376fae69faa43e6d9d05 ""
   "footer_logo_sea.png" 1732616272 8510 4ebf784128c0170a4a0658c9bab34e3a ""

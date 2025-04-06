@@ -3,9 +3,10 @@
   
   \caption{List of feature extractors compared in this study. Columns "abbrev." shows the an abbreviated name used in Fig. \ref{fig:orig_vs_ump}. "training" shows the training setup chosen during training, i.e. ssl for self-supervised learning, sup l for supervised learning and ft for fine-tuning. The "architecture" column more specifically describes the model architecture used. "dimension" shows the output dimension of the feature extractor. "trained on" summarizes the species group that was used to train the model. "ref." provides the respective publication.}
   \label{tab:bacpipe_models}
+
   \centering
-  \begin{tabular}{|l|c|c|c|c|l|c|}
-    \hline
+  \begin{tabular}{l|c|c|c|c|l|c}
+    % \hline
     name& abbrev. & 
     training & architecture &
     dimension & trained on & ref.\\
@@ -13,25 +14,21 @@
       %  ref code&
       %  sampling rate&
     \hline
-    Animal2vec\_XC      & brdnet   & ssl & d2v2.0 & 768 & birds & \cite{schafer-zimmermann_animal2vec_2024}\\
-    Animal2vec\_MK      & a2v\_xc  & ssl + ft & d2v2.0 & 1024& meerkats & \cite{schafer-zimmermann_animal2vec_2024}\\
-    AudioMAE            & a2v\_mk  & ssl + ft & ViT 	 & 768 & general & \cite{huang_masked_2022}\\
-    AVES\_ESpecies      & aud\_mae   & ssl + ft & HuBERT 	 & 768 & general + animals & \cite{hagiwara_aves_2022}\\
-    AvesEcho\_PaSST     & aves   & sup l & PaSST 	 & 768 & birds & \cite{ghani_generalization_2024}\\
-    BioLingual          & bioling  & mm sup l & CLAP 	 & 512 & animals + birds & \cite{robinson_transferable_2023}\\
+    Animal2vec\_XC      & a2v\_xc   & ssl & d2v2.0 & 768 & birds & \cite{schafer-zimmermann_animal2vec_2024}\\
+    Animal2vec\_MK      & a2v\_mk  & ssl + ft & d2v2.0 & 1024& meerkats & \cite{schafer-zimmermann_animal2vec_2024}\\
+    AudioMAE            & aud\_mae  & ssl + ft & ViT 	 & 768 & general & \cite{huang_masked_2022}\\
+    AVES\_ESpecies      & aves   & ssl + ft & HuBERT 	 & 768 & general + animals & \cite{hagiwara_aves_2022}\\
+    AvesEcho\_PaSST     & aecho   & sup l & PaSST 	 & 768 & birds & \cite{ghani_generalization_2024}\\
+    BioLingual          & bioling  & sup l & CLAP 	 & 512 & animals + birds & \cite{robinson_transferable_2023}\\
     BirdAVES\_ESpecies  & birdaves   & ssl + ft & HuBERT 	 & 1024& general + birds & \cite{hagiwara_aves_2022}\\
-    BirdNET             & aecho   & sup l & EffNetB0 	 & 1024& birds & \cite{kahl_birdnet_2021}\\
-    % HumpbackNET         & 3.9 & sup l & ResNet50 	 & 2048& hb whales& \cite{kather_development_2024}\\
-    Google\_Whale       & i66   & sup l & EffNetB0 	 & 1280& whales & - \\
+    BirdNET             & brdnet   & sup l & EffNetB0 	 & 1024& birds & \cite{kahl_birdnet_2021}\\
+    Google\_Whale       &  g\_whale  & sup l & EffNetB0 	 & 1280& whales & - \\
     Insect459NET        & i459 & sup l & EffNetv2s 	 & 1280& insects & - \\
-    Insect66NET         & perch & sup l & EffNetv2s 	 & 1280& insects & - \\
-    % Mix2                & 3   & sup l & MobNetv3 	 & 960 & frogs & \cite{moummad_mixture_2024}\\
-    NonBioAVES\_ESpecies & p\_clr    & ssl + ft & HuBERT 	 & 1024& general + non-bio & \cite{hagiwara_aves_2022}\\
-    Perch\_Bird         & s\_perch   & sup l & EffNetB0 	 & 1280& birds & - \\
-    ProtoCLR            & g\_whale   & sup l 	 & CvT-13 & 384 & birds & \cite{moummad_domain-invariant_2024}\\
-    % RCL\_FS\_BSED       & 0.2 & sup cl 	 & ResNet9 	 & 2048& dcase task 5 & \cite{moummad_regularized_2024}\\
-    SurfPerch           & nonbioaves   & sup l & EffNetB0 	 & 1280& coral reefs + birds & \cite{williams_leveraging_2024}\\
-    % VGGish              & 0.96& sup l & VGG & 128 & general & \cite{hershey_cnn_2017}\\
-    \hline
+    Insect66NET         & i66 & sup l & EffNetv2s 	 & 1280& insects & - \\
+    NonBioAVES\_ESpecies& nonbioaves    & ssl + ft & HuBERT 	 & 1024& general + non-bio & \cite{hagiwara_aves_2022}\\
+    Perch\_Bird         & perch    & sup l & EffNetB0 	 & 1280& birds & - \\
+    ProtoCLR            & p\_clr   & sup l 	 & CvT-13 & 384 & birds & \cite{moummad_domain-invariant_2024}\\
+    SurfPerch           &  s\_perch  & sup l & EffNetB0 	 & 1280& coral reefs + birds & \cite{williams_leveraging_2024}\\
+    % \hline
   \end{tabular}
 \end{table*}

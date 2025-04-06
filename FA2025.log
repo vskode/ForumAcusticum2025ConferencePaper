@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.1.15)  29 MAR 2025 03:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.1.15)  6 APR 2025 22:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -428,60 +428,57 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks40
 \inpenc@posthook=\toks41
+) (/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
+Package: todonotes 2024/01/05
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 37.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 37.
+\c@@todonotes@numberoftodonotes=\count316
+)
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 39.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 39.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count316
+\l__color_backend_stack_int=\count317
 \l__pdf_internal_box=\box76
 ) (./FA2025.aux)
 \openout1 = `FA2025.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
+\scratchcounter=\count318
 \scratchdimen=\dimen275
 \scratchbox=\box77
-\nofMPsegments=\count318
-\nofMParguments=\count319
+\nofMPsegments=\count319
+\nofMParguments=\count320
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count320
+\MPscratchCnt=\count321
 \MPscratchDim=\dimen276
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
+\MPnumerator=\count322
+\makeMPintoPDFobject=\count323
 \everyMPtoPDFconversion=\toks43
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
@@ -522,8 +519,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 37.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 40.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 39.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 42.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) (./Sections/Introduction.tex
@@ -532,78 +529,45 @@ Underfull \hbox (badness 1184) in paragraph at lines 4--9
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5954) has occurred while \output is active []
 
 <header.png, id=4, 1044.90375pt x 216.81pt>
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 24.
+Package pdftex.def Info: header.png  used on input line 25.
 (pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
 <footer_logo_eaa.jpg, id=6, 241.8636pt x 241.8636pt>
 File: footer_logo_eaa.jpg Graphic file (type jpg)
 <use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 24.
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 25.
 (pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
 <footer_logo_sea.png, id=7, 227.85126pt x 164.615pt>
 File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 24.
+Package pdftex.def Info: footer_logo_sea.png  used on input line 25.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 
- <./header.png> <./footer_logo_eaa.jpg> <./footer_logo_sea.png>]) (./Sections/Methods.tex
+ <./header.png> <./footer_logo_eaa.jpg> <./footer_logo_sea.png>]) (./Sections/Methods.tex (./Sections/table_models.tex)
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 17.
+Package pdftex.def Info: header.png  used on input line 21.
 (pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
 File: footer_logo_eaa.jpg Graphic file (type jpg)
 <use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 17.
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 21.
 (pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
 File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 17.
+Package pdftex.def Info: footer_logo_sea.png  used on input line 21.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
- [2] (./Sections/table_models.tex)
+ [2]
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 31.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)) (./Sections/Results.tex
-<Sections/imgs/normal_overview.png, id=25, 722.7pt x 505.89pt>
-File: Sections/imgs/normal_overview.png Graphic file (type png)
-<use Sections/imgs/normal_overview.png>
-Package pdftex.def Info: Sections/imgs/normal_overview.png  used on input line 6.
-(pdftex.def)             Requested size: 463.78pt x 324.64848pt.
-<Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png, id=26, 361.35pt x 289.08pt>
-File: Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png Graphic file (type png)
-<use Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png>
-Package pdftex.def Info: Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png  used on input line 26.
-(pdftex.def)             Requested size: 221.93158pt x 177.54715pt.
-File: header.png Graphic file (type png)
-<use header.png>
-Package pdftex.def Info: header.png  used on input line 46.
-(pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
-File: footer_logo_eaa.jpg Graphic file (type jpg)
-<use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 46.
-(pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
-File: footer_logo_sea.png Graphic file (type png)
-<use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 46.
-(pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
- [3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- (./Sections/table_res.tex
-Overfull \hbox (6.03503pt too wide) in paragraph at lines 7--42
- [][] 
- []
-
 ))
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: header.png Graphic file (type png)
 <use header.png>
 Package pdftex.def Info: header.png  used on input line 70.
@@ -616,56 +580,81 @@ File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
 Package pdftex.def Info: footer_logo_sea.png  used on input line 70.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
- [4] (./Sections/Discussion.tex
-Underfull \hbox (badness 1067) in paragraph at lines 4--9
+ [3] (./Sections/Results.tex (./Sections/table_res.tex
+Overfull \hbox (5.23505pt too wide) in paragraph at lines 6--40
+ [][] 
+ []
+
+)
+<Sections/imgs/clust_and_class_lineplots.png, id=29, 433.62pt x 361.35pt>
+File: Sections/imgs/clust_and_class_lineplots.png Graphic file (type png)
+<use Sections/imgs/clust_and_class_lineplots.png>
+Package pdftex.def Info: Sections/imgs/clust_and_class_lineplots.png  used on input line 37.
+(pdftex.def)             Requested size: 230.46748pt x 192.06044pt.
+File: header.png Graphic file (type png)
+<use header.png>
+Package pdftex.def Info: header.png  used on input line 56.
+(pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
+File: footer_logo_eaa.jpg Graphic file (type jpg)
+<use footer_logo_eaa.jpg>
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 56.
+(pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
+File: footer_logo_sea.png Graphic file (type png)
+<use footer_logo_sea.png>
+Package pdftex.def Info: footer_logo_sea.png  used on input line 56.
+(pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
+ [4]
+Underfull \vbox (badness 2065) has occurred while \output is active []
+
+<Sections/imgs/normal_overview.png, id=33, 722.7pt x 505.89pt>
+File: Sections/imgs/normal_overview.png Graphic file (type png)
+<use Sections/imgs/normal_overview.png>
+Package pdftex.def Info: Sections/imgs/normal_overview.png  used on input line 76.
+(pdftex.def)             Requested size: 463.78pt x 324.64848pt.
+) (./Sections/Discussion.tex
+Underfull \hbox (badness 1067) in paragraph at lines 4--13
 \OT1/ptm/m/n/10 Although the self-supervised fea-ture ex-trac-tors rep-re-
  []
 
-
+File: header.png Graphic file (type png)
+<use header.png>
+Package pdftex.def Info: header.png  used on input line 26.
+(pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
+File: footer_logo_eaa.jpg Graphic file (type jpg)
+<use footer_logo_eaa.jpg>
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 26.
+(pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
+File: footer_logo_sea.png Graphic file (type png)
+<use footer_logo_sea.png>
+Package pdftex.def Info: footer_logo_sea.png  used on input line 26.
+(pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
+[5 <./Sections/imgs/clust_and_class_lineplots.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 11.
+Package pdftex.def Info: header.png  used on input line 32.
 (pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
 File: footer_logo_eaa.jpg Graphic file (type jpg)
 <use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 11.
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 32.
 (pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
 File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 11.
+Package pdftex.def Info: footer_logo_sea.png  used on input line 32.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
- [5 <./Sections/imgs/normal_overview.png>]
-Underfull \vbox (badness 1789) has occurred while \output is active []
-
-
-Underfull \vbox (badness 4479) has occurred while \output is active []
-
+ [6 <./Sections/imgs/normal_overview.png>]) (./Sections/Conclustion.tex) (./FA2025.bbl
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 31.
+Package pdftex.def Info: header.png  used on input line 14.
 (pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
 File: footer_logo_eaa.jpg Graphic file (type jpg)
 <use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 31.
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 14.
 (pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
 File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 31.
-(pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
- [6 <./Sections/imgs/scatterplot_clust_vs_class_neotrop_anuran_normal.png>]) (./Sections/Conclustion.tex) (./FA2025.bbl
-File: header.png Graphic file (type png)
-<use header.png>
-Package pdftex.def Info: header.png  used on input line 11.
-(pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
-File: footer_logo_eaa.jpg Graphic file (type jpg)
-<use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 11.
-(pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
-File: footer_logo_sea.png Graphic file (type png)
-<use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 11.
+Package pdftex.def Info: footer_logo_sea.png  used on input line 14.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
  [7]
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
@@ -700,15 +689,15 @@ Underfull \hbox (badness 1527) in paragraph at lines 61--62
 )
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 86.
+Package pdftex.def Info: header.png  used on input line 88.
 (pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
 File: footer_logo_eaa.jpg Graphic file (type jpg)
 <use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 86.
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 88.
 (pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
 File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 86.
+Package pdftex.def Info: footer_logo_sea.png  used on input line 88.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
  [8] (./FA2025.aux)
  ***********
@@ -717,15 +706,15 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 18734 strings out of 476106
- 416215 string characters out of 5793933
- 1955975 words of memory out of 5000000
- 40392 multiletter control sequences out of 15000+600000
+ 18812 strings out of 476106
+ 419036 string characters out of 5793933
+ 1947975 words of memory out of 5000000
+ 40476 multiletter control sequences out of 15000+600000
  588516 words of font info for 91 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 117i,17n,121p,911b,1285s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,17n,121p,909b,1292s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on FA2025.pdf (8 pages, 1739957 bytes).
+Output written on FA2025.pdf (8 pages, 2058985 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream

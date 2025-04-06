@@ -66,4 +66,7 @@ K.~H. Brodersen, C.~S. Ong, K.~E. Stephan, and J.~M. Buhmann, ``The {{Balanced A
 \bibitem{mcinnes_umap_2020}
 L.~McInnes, J.~Healy, and J.~Melville, ``{{UMAP}}: {{Uniform Manifold Approximation}} and {{Projection}} for {{Dimension Reduction}},'' Sept. 2020.
 
+\bibitem{ghani_global_2023}
+B.~Ghani, T.~Denton, S.~Kahl, and H.~Klinck, ``Global birdsong embeddings enable superior transfer learning for bioacoustic classification,'' {\em Scientific Reports}, vol.~13, p.~22876, Dec. 2023.
+
 \end{thebibliography}

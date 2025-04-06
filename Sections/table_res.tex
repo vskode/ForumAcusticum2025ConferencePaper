@@ -1,121 +1,40 @@
-
 \begin{table}[t]
   
-  \caption{Classification and clustering performance of the original, and UMAP reduced embeddings to 300 dimensions. Values show the mean over all ssl, supl, bird and non-bird feature extractors, corresponding to the symbols and colors in Fig. \ref{fig:orig_vs_ump}. Best values within category are underlined and best values among all categories and dimensionalities are bold.}
+  \caption{Classification (macro accuracy) and clustering (AMI) performance of the original embeddings, and UMAP embeddings reduced to 300 dimensions. Values show the mean over all ssl, supl, bird and non-bird feature extractors, corresponding to the categories and colors in Fig.~\ref{fig:orig_vs_ump}. Best values among all categories and dimensionalities are bold.}
   \label{tab:results}
   \centering
-  \begin{tabular}{|l|cc|cc|}
-    \hline
-    \textbf{bird data}& \multicolumn{2}{c|}{classification} & \multicolumn{2}{c|}{clustering}\\
-    \hline
+  \begin{tabular}{l|cc|cc}
+    % \hline
+    \textbf{bird data}& \multicolumn{2}{c|}{classification} & \multicolumn{2}{c}{clustering}\\
+    % \hline
     category &
     original &
     UMAP &
     original &
     UMAP \\
     \hline
-    ssl & 0.617 & \underline{0.619} & 0.256 & \underline{0.405}\\
-    supl & 0.695 & \underline{0.711} & 0.418 & \underline{0.476}\\
-    bird & 0.712 & \underline{\textbf{0.723}} & 0.426 & \underline{\textbf{0.479}}\\
-    non-bird & \underline{0.658} & 0.618 & 0.271 & \underline{0.413}\\
-    \hline
-    \hline
-    \textbf{frog data}& \multicolumn{2}{c|}{classification} & \multicolumn{2}{c|}{clustering}\\
-    \hline
+    supl & 0.695 & {0.711} & 0.418 & {0.476}\\
+    ssl & 0.617 & {0.619} & 0.256 & {0.405}\\
+    bird & 0.712 & {\textbf{0.723}} & 0.426 & {\textbf{0.479}}\\
+    non-bird & {0.658} & 0.618 & 0.271 & {0.413}\\
+    % \hline
+    % \hline
+    \textbf{frog data}& &&& \\
+    % \multicolumn{2}{c|}{classification} & \multicolumn{2}{c}{clustering}\\
+    % \hline
     category &
     original &
     UMAP &
     original &
     UMAP \\
     \hline
-    ssl & \underline{0.682} & 0.679 & 0.414 & \underline{0.508}\\
-    supl & \underline{0.668} & 0.655 & 0.488 & \underline{0.546}\\
-    bird & \underline{\textbf{0.705}} & 0.698 & 0.5 & \underline{\textbf{0.558}}\\
-    non-bird & 0.638 & 0.627 & 0.414 & \underline{0.5}\\
-    \hline
+    supl & {0.668} & 0.655 & 0.488 & {0.546}\\
+    ssl & {0.682} & 0.679 & 0.414 & {0.508}\\
+    bird & {\textbf{0.705}} & 0.698 & 0.5 & {\textbf{0.558}}\\
+    non-bird & 0.638 & 0.627 & 0.414 & {0.5}\\
+    % \hline
     
     
-    
-    
-    \hline
+    % \hline
   \end{tabular}
 \end{table}
-
-
-% ssl & 0.617& 0.619& 0.587 \\
-% supl & 0.695& 0.711& 0.66 \\
-% bird & 0.712& 0.723& 0.607 \\
-% non-bird & 0.609& 0.618& 0.658 \\
-% \\hline
-    
-% \\hline
-% ssl & 0.256& 0.405& 0.25 \\
-% supl & 0.418& 0.476& 0.414 \\
-% bird & 0.426& 0.479& 0.411 \\
-% non-bird & 0.271& 0.413& 0.276 \\
-% \\hline
-    
-% \\hline
-% category &
-% original &
-% umap &
-% pca \\
-% \\hline
-% ssl & 0.682& 0.679& 0.601 \\
-% supl & 0.668& 0.655& 0.673 \\
-% bird & 0.705& 0.698& 0.629 \\
-% non-bird & 0.638& 0.627& 0.662 \\
-% \\hline
-    
-% \\hline
-% ssl & 0.414& 0.508& 0.418 \\
-% supl & 0.488& 0.546& 0.49 \\
-% bird & 0.5& 0.558& 0.503 \\
-% non-bird & 0.411& 0.5& 0.414 \\
-
-
-
-
-
-
-% \begin{tabular}{|l|ccc|}
-%   \hline
-%   \textbf{bird data}& \multicolumn{3}{c|}{classification (macro accuracy)} \\
-%   \hline
-%   category &
-%   original &
-%   PCA &
-%   UMAP \\
-%   \hline
-%   ssl & 0.617& 0.587 & \underline{0.619}\\
-%   supl & 0.695& 0.66 & \underline{0.711}\\
-%   bird & 0.712& 0.607 & \underline{\textbf{0.723}}\\
-%   non-bird & 0.609& \underline{0.658} & 0.618\\
-%   \hline
-%   & \multicolumn{3}{c|}{clustering (AMI)} \\
-%   \hline
-%   ssl & 0.256& 0.25 & \underline{0.405}\\
-%   supl & 0.418& 0.414 & \underline{0.476}\\
-%   bird & 0.426& 0.411 & \underline{\textbf{0.479}}\\
-%   non-bird & 0.271& 0.276 & \underline{0.413}\\
-%   \hline
-%   \textbf{frog data}& \multicolumn{3}{c|}{classification (macro accuracy)} \\
-%   \hline
-%   category &
-%   original &
-%   PCA &
-%   UMAP \\
-%   \hline
-%   ssl & \underline{0.682}& 0.601 & 0.679\\
-%   supl & \underline{0.668}& 0.673 & 0.655\\
-%   bird & \underline{\textbf{0.705}}& 0.629 & 0.698\\
-%   non-bird & 0.638& \underline{0.662} & 0.627\\
-%   \hline
-%   & \multicolumn{3}{c|}{clustering (AMI)} \\
-%   \hline
-%   ssl & 0.414& 0.418 & \underline{0.508}\\
-%   supl & 0.488& 0.49 & \underline{0.546}\\
-%   bird & 0.5& 0.503 & \underline{\textbf{0.558}}\\
-%   non-bird & 0.411& 0.414 & \underline{0.5}\\
-%   \hline
-% \end{tabular}

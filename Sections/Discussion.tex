@@ -2,14 +2,14 @@
 \label{sec:discussion}
 
 Although the self-supervised feature extractors represented in this study are trained on very large datasets, their clustering performance is inferior to most of the supervised learning feature extractors.
-Nonetheless, their lack of supervision demonstrates generalization as the majority of self-supervised feature extractors improve performance on the frog data, both for clustering and classification.
+Nonetheless, their lack of supervision benefits generalization: the majority of self-supervised feature extractors improve performance on the frog data, both for clustering and classification.
 Yet, as has been shown in previous studies \cite{ghani_global_2023}, supervised learning and training data consisting of large bird song databases yield the best results, even for challenging PAM datasets.
 Perch and BirdNET \cite{kahl_birdnet_2021}, both of which are trained on thousands of classes of bird vocalizations, vastly outperform the other feature extractors by clustering and for the bird data also by classification. 
 %It is worth mentioning that they do so, while being trained on standard EfficienNETs, rather than custom architectures developed for a specific task.
-Despite the authors claims, the multi-modal feature extractor Biolingual, which performs very well by clustering but comparably poor by classification is outperformed by BirdNET and Perch.
+Despite the authors' claims \cite{robinson_transferable_2023}, the multi-modal feature extractor Biolingual, which performs very well by clustering but comparably poor by classification, is outperformed by BirdNET and Perch.
 SurfPerch \cite{williams_leveraging_2024} and AvesEcho\_PaSST \cite{ghani_generalization_2024}, both of which have largely benefited from Perch or BirdNET pretraining, perform well for both clustering and classification tasks.
-Most notably AvesEcho\_PaSST is the only supervised learning feature extractor that demonstrates generalization by improving performance on the frog data.
-This could be attributed to the models' innovative transformer architecture using patchout, thereby selectively dropping patches of spectrograms during training, whilst having learned from the well trained BirdNET embeddings through knowledge distillation \cite{ghani_generalization_2024}.
+Most notably, AvesEcho\_PaSST is the only supervised learning feature extractor that demonstrates generalization by improving performance on the frog data.
+This could be attributed to the model's innovative transformer architecture using patchout, thereby selectively dropping patches of spectrograms during training, whilst having learned from the well-trained BirdNET embeddings through knowledge distillation \cite{ghani_generalization_2024}.
 
 
 % Interestingly, Insetct66 and Insect459 both of which were trained on only insect sounds and far fewer classes than the bird-trained biolingual, vastly outperform it in classification.
@@ -37,14 +37,18 @@ Yet, both models reach similarly poor performance, this is especially surprising
 
 
 While the dimensions of the feature extractors vary greatly, performance does not correlate with dimensionality.
-Nonetheless, in Table \ref{tab:results} we demonstrated that using a standardized embedding space affects clustering and classification performance differently.
+When we used UMAP to standardize the embedding spaces, we saw performance improvements (Table~\ref{tab:results}).
+The observed improvements are more pronounced in clustering, likely because UMAP is an optimization algorithm that trains a neural network to find an optimized lower dimensional graph representation,  which benefits K-Means.
+%We demonstrated that using UMAP to standardize the embedding spaces generally improves performance, but it does so differently for clustering and classification (Table~\ref{tab:results}).
+
+%Nonetheless, in Table \ref{tab:results} we demonstrated that using a standardized embedding space affects clustering and classification performance differently.
 % The performance differences that can be observed are predominantly in clustering, indicating that the graph structure, which K-Means builds for the clustering, is aided by dimensionality reduction using UMAP.
 % For this study dimensionality reduction using Principal Component Analysis was also performed and evaluated using linear classification, however, performance only changed marginally and was therefore omitted from this comparison.
 
 
 % This analysis underlines the high quality of embeddings created by large supervised learning feature extractors like BirdNET and Perch.
-While the bird data was in-domain for BirdNET and Perch, the same applies for Biolingual, Animal2vec\_XC and BirdAVES\_ESpecies, none of which reached similar performance metrics.
-The decrease in classification performance by Perch on the frog data raises the question if this difference can be attributed to its training dataset.
+Although the bird data were in-domain for BirdNET and Perch, the same applies for Biolingual, Animal2vec\_XC and BirdAVES\_ESpecies, none of which reached similar performance.
+The decrease in classification performance by Perch on the frog data raises the question whether this difference can be attributed to its training dataset.
 Perch's training data, which is comprised of solely xeno-canto recordings perhaps makes it less domain agnostic than BirdNET which was trained on selected curated bird datasets along with a large portion of xeno-canto.
 
 

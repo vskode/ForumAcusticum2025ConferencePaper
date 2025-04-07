@@ -27,10 +27,10 @@ We intentionally selected soundscape recordings with gradual changes of backgrou
 
 For each of the feature extractors, the respective model code base was cloned, and the model was stripped of its classifier.
 For both animal2vec feature extractors, outputs from the attention heads and input lengths are averaged, resulting in one embedding per input segment (as is the case with all other feature extractors).
-Data is imported from the sound files, resampled to the model specific sample rate and padded to fit the model specific input length.
+Data are imported from the sound files, resampled to the model-specific sample rate, and padded to fit the model-specific input length.
 All the necessary code to reproduce the computations can be found in the repository \textbf{bacpipe}\footnote{\url{github.com/bioacoustic-ai/bacpipe}} (\textbf{b}io\textbf{a}coustic \textbf{c}ollection \textbf{pipe}line).
 
-\subsection{Methods of evaluating embedding spaces}
+\subsection{Methods for evaluating embedding spaces}
 \label{ssub:eval_dim_reduc}
 
 Embedding spaces are evaluated using clustering and classification.

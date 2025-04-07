@@ -3,14 +3,14 @@
 
 \input{Sections/table_res}
 
-Table \ref{tab:results} shows the averaged performances over all feature extractors, grouped into the different categories: supervised and self-supervised learning and trained on bird data and non-bird data.
-Firstly we want to point out the performance changes following dimensionality reduction using UMAP.
-For evaluation with both bird and frog datasets, UMAP embeddings improve the clustering results significantly for every category.
-
+Table \ref{tab:results} shows the averaged performances over all feature extractors, grouped into the different categories: supervised vs. self-supervised learning, and trained on bird data vs. non-bird data.
+Firstly, we want to point out the performance changes following dimensionality reduction using UMAP.
+For evaluation with bird and frog datasets, UMAP embeddings significantly improve clustering results for each category.
 For the classification performance, values are very similar between original and UMAP reduced embeddings, however, when applied to the bird data, UMAP yields performance increases for most categories, whereas for the frog data, the original embeddings yield better results.
-Supervised learning outperform the self-supervised learning feature extractors by a large margin for classification and clustering in the bird dataset.
-For the frog dataset, due the the improved performance of the AVES models (see Fig. \ref{fig:orig_vs_ump}), self-supervision outperforms supervised learning by kNN classification.
-When comparing the values between all categories, the bird trained feature extractors outperform all other categories for both bird and frog evaluation sets.
+
+Supervised feature extractors outperform self-supervised ones by a large margin for classification and clustering on the bird dataset.
+For the frog dataset, due to the improved performance of the AVES models (see Fig. \ref{fig:orig_vs_ump}), self-supervision outperforms supervised learning measured by kNN classification.
+When comparing the values between all categories, the bird-trained feature extractors outperform all other categories for both bird and frog evaluation sets.
 
 
 % Embeddings spaces of are visualized using UMAP in are generated from the input data using all feature extractors and then the dimensionality reduction algorithm UMAP is used to visualize the data in two dimensions.
@@ -18,18 +18,16 @@ When comparing the values between all categories, the bird trained feature extra
 
 
 % To highlight performance changes once the feature extractors are applied to a dataset different from their training domain, Fig. \ref{fig:orig_vs_ump} shows the performance on the bird dataset (blue) and the frog dataset (green).
-Figure \ref{fig:orig_vs_ump} shows the averaged performances from Table~\ref{tab:results} for each of the feature extractors.
-Again, performance is evaluated by AMI of clustering (top) and macro accuracy of kNN classification (bottom).
-
-First we will focus on the feature extractors being applied to the bird dataset, shown in blue.
+Figure \ref{fig:orig_vs_ump} shows the averaged performances for each of the feature extractors.
+First, we will focus on the feature extractors that are applied to the bird dataset, shown in blue.
 When focusing on the clustering (top), the 6 best performing feature extractors are trained using supervised learning, while all self-supervised learning feature extractors reach clustering performances under 0.31.
-Performance by kNN classification is more mixed, however again supervised learning feature extractors reach the three highest values.
-Furthermore, Animal2vec\_XC, the only self-supervised learning feature extractor that was not fine-tuned, performs poorly by both clustering and kNN classification.
+Performance measured by kNN classification is more mixed, however again supervised learning feature extractors reach the three highest values.
+Furthermore, Animal2vec\_XC, the only self-supervised learning feature extractor that was not fine-tuned, performs poorly for both clustering and kNN classification.
 Google\_Whale represents the only supervised learning feature extractor performing very poorly by clustering and kNN classification.
 
 Comparing by training data, feature extractors trained on only or including bird datasets (supl bird and ssl bird) outperform the other feature extractors by kNN classification and even more so by clustering, with the exception of Animal2vec\_XC.
 Aside from ProtoCLR the supervised learning models that are also trained on birds (supl bird) vastly outperform all other models by clustering and with the exception of the AVES feature extractors also by kNN classification.
-Perch and BirdNET lead in both clustering and kNN classification by a large margin.
+Perch and BirdNET lead both in clustering and kNN classification by a large margin.
 Biolingual, which was trained on large bird databases using a multi-modal approach performs well by clustering, but comparatively poorly by kNN classification.
 
 \begin{figure}[ht]
@@ -62,13 +60,13 @@ However, by kNN classification, results are more mixed by both training paradigm
 % Furthermore, the only two feature extractors trained on marine sounds, Google\_Whale and SurfPerch (trained on birds and marine sounds) reach very different performances.
 
 For a more qualitative analysis of the different embedding spaces, two-dimensional UMAP embeddings of the feature extractors applied to the bird data are shown in Fig.~\ref{fig:embeds}.
-The worst performing feature extractors, produce large unstructured clouds of mixed color, indicating that no significant clustering is achieved.
+The worst-performing feature extractors produce large unstructured clouds of mixed color, indicating that no significant clustering is achieved.
 In the first and second row, feature extractors can be seen to separate the embeddings into meaningful clusters.
 It is noticeable that some feature extractors such as AvesEcho\_PaSST and ProtoCLR seem to generate more subclusters than most other feature extractors.
-This, however does not reflect in their performance in Fig.~\ref{fig:orig_vs_ump}.
-The seven best performing feature extractors are all trained using supervised learning and the top three are additionally trained on bird vocalizations.
+This, however does not reflect in their performance (Fig.~\ref{fig:orig_vs_ump}).
+The seven best-performing feature extractors are all trained using supervised learning and the top three are additionally trained on bird vocalizations.
 All three of the AVES models (BirdAVES, AVES and NonBioAVES) reach similar performances in spite of big differences in their fine-tuning datasets \cite{hagiwara_aves_2022}.
-Despite the embedding spaces of BirdAVES and Animal2vec\_XC looking similarly cluttered, their performance varies by clustering and even more so my classification (see Fig.~\ref{fig:orig_vs_ump}).
+Despite the embedding spaces of BirdAVES and Animal2vec\_XC looking similarly cluttered, their performance varies by clustering and even more so by classification (see Fig.~\ref{fig:orig_vs_ump}).
 
 
 \begin{figure*}[ht]

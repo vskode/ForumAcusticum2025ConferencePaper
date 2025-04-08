@@ -34,7 +34,7 @@ Bioacoustic deep learning models consist of artificial neural networks that can 
 The feature extractor creates an embedding (vector representation) of an input sound and the classifier (which corresponds to the final dense layer of the model) maps the embedding onto classes.
 Commonly, in bioacoustics, a suite of established benchmarks is used to compare the classifier performance of state-of-the-art models \cite{hamer_birb_2023}.
 This requires the models to have been trained on the classes present in the benchmarking datasets.
-However, there is an alternative: using the embeddings created by the feature extractors, the generated embedding spaces can be analyzed with regard to their structural characteristics, irrespective of what the classifiers were trained on.
+However, there is an alternative: using the embeddings created by the feature extractors, the embedding spaces can be analyzed with regard to their structural characteristics, irrespective of what the classifiers were trained on.
 
 %Output dimensions of feature extractors vary greatly, but it is uncertain if their dimensionality correlates with the downstream classifier performance. 
 %Dimensionality reduction algorithms are useful to standardize the dimensionality of different feature extractors, as well as help visualize the high dimensional embedding spaces.
@@ -51,7 +51,7 @@ With this, we hope to on the one hand emphasize the performance differences betw
 
 This study aims to showcase the potential for evaluating and especially comparing bioacoustic deep learning models with regard to their training paradigm and training data.
 The evaluation focuses on the structuring capabilities of each feature extractor, as measured by clustering and classification performance.
-Classification in this case refers to recognition of nThe evaluation focuses on the structuring capabilities of each feature extractor, as measured by clustering and classification performance.ovel classes, as none of the models have been pretrained on the classes selected here.
+Classification in this case refers to recognition of novel classes, as none of the models have been pretrained on the classes selected here.
 This way, classification heads are attached to each feature extractor, all of which are trained on the same evaluation sets (bird and frog vocalizations), i.e. same classes and same data, allowing us to compare their performance.
 Classification is done using a k-nearest neighbor (kNN) approach.
 % We perform our analysis in both the original embedding space and a reduced dimensional embedding space. 

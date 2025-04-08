@@ -20,7 +20,7 @@ When comparing the values between all categories, the bird-trained feature extra
 % To highlight performance changes once the feature extractors are applied to a dataset different from their training domain, Fig. \ref{fig:orig_vs_ump} shows the performance on the bird dataset (blue) and the frog dataset (green).
 Figure \ref{fig:orig_vs_ump} shows the averaged performances for each of the feature extractors.
 First, we will focus on the feature extractors that are applied to the bird dataset, shown in blue.
-When focusing on the clustering (top), the 6 best performing feature extractors are trained using supervised learning, while all self-supervised learning feature extractors reach clustering performances under 0.31.
+When focusing on the clustering (top), the six best performing feature extractors are trained using supervised learning, while all self-supervised learning feature extractors reach clustering performances under 0.31.
 Performance measured by kNN classification is more mixed, however again supervised learning feature extractors reach the three highest values.
 Furthermore, Animal2vec\_XC, the only self-supervised learning feature extractor that was not fine-tuned, performs poorly for both clustering and kNN classification.
 Google\_Whale represents the only supervised learning feature extractor performing very poorly by clustering and kNN classification.
@@ -37,8 +37,8 @@ Biolingual, which was trained on large bird databases using a multi-modal approa
     The top plot shows clustering results of AMI.
     The bottom plot shows macro accuracy results of kNN classification. 
     Colors correspond to performance of the feature extractors when applied to bird data (blue) and frog data (green).
-    The x-axis shows abbreviated model names, corresponding to abbrev. column in Tab.~\ref{tab:bacpipe_models}. 
-    Models are grouped into categories along the x-axis by training paradigm (supervised learning (supl) and self-supervised learning (ssl)) and training data (bird data and non-bird data, see Table~\ref{tab:bacpipe_models}.}
+    The x-axis shows abbreviated model names, corresponding to "abbrev." column in Tab.~\ref{tab:bacpipe_models}. 
+    Models are grouped into categories along the x-axis by training paradigm (supervised learning (supl) and self-supervised learning (ssl)) and training data (bird data and non-bird data, see Table~\ref{tab:bacpipe_models}).}
     \label{fig:orig_vs_ump}
 \end{figure}
 
@@ -52,7 +52,7 @@ So much so, that all three outperform all other feature extractors by kNN classi
 % Aside from all feature extractors increase in clustering performance.
 
 All non-bird trained feature extractors improve in clustering when applied to frog data.
-Again, when applied to the frog dataset, all bird trained feature extractors except for Animal2vec\_XC outperform the rest by clustering and the top 6 models are the supervised learning bird trained feature extractors.
+Again, when applied to the frog dataset, all bird trained feature extractors except for Animal2vec\_XC outperform the rest by clustering and the top six models are the supervised learning bird trained feature extractors.
 Among them, only AvesEcho improves in both clustering and kNN classification.
 However, by kNN classification, results are more mixed by both training paradigm and training domain.
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.1.15)  7 APR 2025 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.1.15)  8 APR 2025 10:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -551,41 +551,43 @@ Package pdftex.def Info: footer_logo_sea.png  used on input line 25.
 
 
  <./header.png> <./footer_logo_eaa.jpg> <./footer_logo_sea.png>]) (./Sections/Methods.tex (./Sections/table_models.tex)
-File: header.png Graphic file (type png)
-<use header.png>
-Package pdftex.def Info: header.png  used on input line 21.
-(pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
-File: footer_logo_eaa.jpg Graphic file (type jpg)
-<use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 21.
-(pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
-File: footer_logo_sea.png Graphic file (type png)
-<use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 21.
-(pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
- [2]
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 31.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-))
+)
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 70.
+Package pdftex.def Info: header.png  used on input line 32.
 (pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
 File: footer_logo_eaa.jpg Graphic file (type jpg)
 <use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 70.
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 32.
 (pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
 File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 70.
+Package pdftex.def Info: footer_logo_sea.png  used on input line 32.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
- [3] (./Sections/Results.tex (./Sections/table_res.tex
+ [2]) (./Sections/Results.tex (./Sections/table_res.tex
 Overfull \hbox (5.23505pt too wide) in paragraph at lines 6--40
  [][] 
  []
 
-)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: header.png Graphic file (type png)
+<use header.png>
+Package pdftex.def Info: header.png  used on input line 40.
+(pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
+File: footer_logo_eaa.jpg Graphic file (type jpg)
+<use footer_logo_eaa.jpg>
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 40.
+(pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
+File: footer_logo_sea.png Graphic file (type png)
+<use footer_logo_sea.png>
+Package pdftex.def Info: footer_logo_sea.png  used on input line 40.
+(pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
+ [3])
 Underfull \hbox (badness 10000) in paragraph at lines 11--14
 []\OT1/ptm/m/n/10 Supervised fea-ture ex-trac-tors out-per-form self-
  []
@@ -608,7 +610,7 @@ File: footer_logo_sea.png Graphic file (type png)
 Package pdftex.def Info: footer_logo_sea.png  used on input line 58.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
 [4]
-Underfull \vbox (badness 4899) has occurred while \output is active []
+Underfull \vbox (badness 2846) has occurred while \output is active []
 
 <Sections/imgs/normal_overview.png, id=33, 722.7pt x 505.89pt>
 File: Sections/imgs/normal_overview.png Graphic file (type png)
@@ -637,28 +639,28 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 32.
+Package pdftex.def Info: header.png  used on input line 43.
 (pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
 File: footer_logo_eaa.jpg Graphic file (type jpg)
 <use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 32.
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 43.
 (pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
 File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 32.
+Package pdftex.def Info: footer_logo_sea.png  used on input line 43.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
  [6 <./Sections/imgs/normal_overview.png>]) (./Sections/Conclustion.tex) (./FA2025.bbl
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 12.
+Package pdftex.def Info: header.png  used on input line 14.
 (pdftex.def)             Requested size: 470.20235pt x 97.56358pt.
 File: footer_logo_eaa.jpg Graphic file (type jpg)
 <use footer_logo_eaa.jpg>
-Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 12.
+Package pdftex.def Info: footer_logo_eaa.jpg  used on input line 14.
 (pdftex.def)             Requested size: 38.69527pt x 38.69576pt.
 File: footer_logo_sea.png Graphic file (type png)
 <use footer_logo_sea.png>
-Package pdftex.def Info: footer_logo_sea.png  used on input line 12.
+Package pdftex.def Info: footer_logo_sea.png  used on input line 14.
 (pdftex.def)             Requested size: 53.55894pt x 38.69576pt.
  [7]
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
@@ -712,13 +714,13 @@ L3 programming layer <2024-01-22>
 Here is how much of TeX's memory you used:
  18812 strings out of 476106
  419036 string characters out of 5793933
- 1947975 words of memory out of 5000000
+ 1950975 words of memory out of 5000000
  40476 multiletter control sequences out of 15000+600000
  588516 words of font info for 91 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 117i,17n,121p,909b,1290s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,17n,121p,912b,1292s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on FA2025.pdf (8 pages, 2059142 bytes).
+Output written on FA2025.pdf (8 pages, 2058960 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
